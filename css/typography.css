@@ -1,8 +1,40 @@
+html {
+    font: normal 100%/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+    color: #797e83;
+    font-size: 16px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.802rem
+}
+
+h2 {
+    font-size: 1.602rem;
+}
+
 h3 {
-    text-align: center;
+    font-size: 1.424rem;
+}
+
+h4 {
+    font-size: 1.266rem;
+}
+
+h5 {
+    font-size: 1.125rem;
+}
+
+h6 {
+    font-size: 1rem; 
 }
 
 p {
-    margin: 0.5em;
+    margin: 0.5rem;
 }
 
