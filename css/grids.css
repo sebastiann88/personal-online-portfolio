@@ -1,0 +1,8 @@
+.grid {
+    overflow: hidden;
+}
+
+.unit {
+    float: left;
+    width: 50.0000%;
+}
