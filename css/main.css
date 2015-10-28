@@ -78,7 +78,7 @@ a {
 }
 
 /* --------------------------
-  Header, Banner and Footer Layout
+  HEADER
 --------------------------- */
 
 .main-header,
@@ -132,6 +132,15 @@ a {
     clear: both;
 }
 
+
+/* --------------------------
+  ABOUT SECTION
+--------------------------- */
+
+.about {
+    max-width: 70%;
+    margin: 5em auto;
+}
 
 
 /* --------------------------
@@ -227,11 +236,10 @@ figure:hover figcaption {
 	}
 }
 
-@media (min-width: 1200px) {
-	.main-wrapper {
-		width: 90%;
-        margin: auto;
-	}
+@media (min-width: 1545px) {
+    .main-wrapper {
+        max-width: 70%;   
+    }
 }
 
 /* --------------------------
