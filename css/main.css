@@ -54,6 +54,13 @@ a {
   Header, Banner and Footer Layout
 --------------------------- */
 
+.main-header,
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+
 .main-header {
     padding-top: 2em;
 }
@@ -61,6 +68,7 @@ a {
 .main-logo {
     display: block;
     margin: 0 auto;
+    align-self: center; 
     width: 200px;
 }
 
@@ -114,3 +122,44 @@ a {
         margin: auto;
 	}
 }
+
+/* --------------------------
+  Navigation Media Queries
+--------------------------- */
+
+@media (min-width: 769px) {
+    
+    .main-header {
+        display: block;
+        max-width: 60%;
+        margin: 0 auto;
+        height: 200px;
+        justify-content: flex-end;
+    } 
+
+    .main-logo {
+        width: 160px; 
+    }
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .nav a {
+        border-bottom-color: transparent;   
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
