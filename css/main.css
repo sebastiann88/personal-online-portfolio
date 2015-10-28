@@ -62,7 +62,7 @@ a {
 
 
 .main-header {
-    padding-top: 2em;
+    padding-top: 1.5em;
 }
 
 .main-logo {
@@ -130,22 +130,35 @@ a {
 @media (min-width: 769px) {
     
     .main-header {
-        display: block;
         max-width: 60%;
         margin: 0 auto;
-        height: 200px;
+        
         justify-content: flex-end;
     } 
 
-    .main-logo {
-        width: 160px; 
-    }
     .nav {
         flex-direction: row;
         justify-content: space-between;
     }
     .nav a {
         border-bottom-color: transparent;   
+    }
+}
+
+@media (min-width: 1545px) {
+    .main-header {
+        max-width: 100%;
+        flex-direction: row;align-items:
+    }
+    .nav {
+        flex-direction: row; align-items:;
+        align-self: center;
+    }
+    .nav li {
+        margin: 0 .65em;
+    }
+    .main-logo {
+        margin: 0 auto 0 0;
     }
 }
 
