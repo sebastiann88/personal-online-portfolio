@@ -95,7 +95,43 @@ a {
     border-bottom-color: #52bab3;
 }
 
+/* --------------------------
+  PREVIEW SECTION
+--------------------------- */
 
+a {
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+figure {
+    display: inline-block;
+    margin: -5px;
+    width: 400px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+figcaption {
+    display: block;
+    padding: 1em;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: -6.12em;
+    transition: all 200ms ease-out;
+}
+
+figure:hover figcaption {
+    bottom: 0em;
+}
 
 
 /* --------------------------
@@ -132,7 +168,6 @@ a {
     .main-header {
         max-width: 60%;
         margin: 0 auto;
-        
         justify-content: flex-end;
     } 
 
