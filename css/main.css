@@ -24,6 +24,33 @@ html {
   box-sizing: border-box; 
 }
 
+/* --------------------------
+  Header, Banner and Footer Layout
+--------------------------- */
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.main-wrapper {
+    min-height: 100%;
+    margin-bottom: -190px;
+}
+
+.main-wrapper:after {
+    content: "";
+    display: block;
+}
+
+.wrapper:after, footer {
+    height: 190px;
+}
+
+/* --------------------------
+  MAIN CONTENT
+--------------------------- */
+
 body {
     color: #797e83;
     font-size: 16px;
@@ -96,8 +123,21 @@ a {
 }
 
 /* --------------------------
+  CLEARFIX
+--------------------------- */
+
+.group::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+
+
+/* --------------------------
   PREVIEW SECTION
 --------------------------- */
+
 
 a {
     margin: 0;
@@ -133,6 +173,41 @@ figure:hover figcaption {
     bottom: 0em;
 }
 
+.previews {
+    height: 100%;
+
+}
+
+/* --------------------------
+  FOOTER
+--------------------------- */
+
+.footer {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1.5em;
+    background-color: gray;
+}
+
+.social-media-icons {
+    display: inline-block;
+    border-radius: 50%;
+    width: 60px;
+    margin: 0 1em;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+    margin: 1 auto 0 auto;
+}
+
+.terms {
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
 
 /* --------------------------
   Media Queries
@@ -140,8 +215,8 @@ figure:hover figcaption {
 
 @media (min-width: 769px) {
 
-	p {
-		-webkit-column-count: 2;
+    #columns {
+        -webkit-column-count: 2;
 		-webkit-column-gap: 2.5em;
 	
 		-moz-column-count: 2;
