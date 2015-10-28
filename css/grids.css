@@ -1,8 +1,19 @@
 .grid {
     overflow: hidden;
+    border: 1px solid red; 
 }
 
 .unit {
     float: left;
-    width: 50.0000%;
+}
+
+.unit-s-1 {
+    width: 100%;
+}
+
+@media (min-width: 769px) {
+    
+.unit-m-1-2 {
+        width: 50%
+    }
 }

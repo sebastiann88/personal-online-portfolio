@@ -139,7 +139,17 @@ a {
 
 .about {
     max-width: 70%;
-    margin: 5em auto;
+    margin: 0 auto 5em auto;
+}
+
+section > h3 {
+    margin: 1.2em auto 2em auto;  
+}
+
+.profile-pic {
+    width: 12em;
+    border-radius: 50%;
+    margin: 0 auto;
 }
 
 
@@ -238,7 +248,7 @@ figure:hover figcaption {
 
 @media (min-width: 1545px) {
     .main-wrapper {
-        max-width: 70%;   
+        max-width: 60%;   
     }
 }
 
