@@ -55,8 +55,39 @@ a {
 --------------------------- */
 
 .main-header {
-    overflow: hidden;
+    padding-top: 2em;
 }
+
+.main-logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+.nav {
+    margin-top: 1.5em;
+}
+
+.nav a {
+    display: block;
+    color: #797e83;
+    font-size: 1.125em;
+    font-weight: 300;
+    text-align: center;
+    padding: .4em;
+    border-bottom: 1px solid #ebecec;
+}
+
+.nav a:hover {
+    color: #0b0b0b;
+    border-bottom-color: #52bab3;
+}
+
+
 
 
 /* --------------------------
