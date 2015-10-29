@@ -172,7 +172,7 @@ figure {
 
 figcaption {
     display: block;
-    padding: 1em;
+    padding: 0.95em;
     background-color: rgba(0,0,0,0.5);
     color: white;
     position: absolute;
@@ -187,7 +187,7 @@ figure:hover figcaption {
 
 figcaption > h4 {
     text-align: center;
-    padding-top: 1em;
+    padding-top: 0.95em;
 }
 
 .previews {

@@ -1,108 +1,66 @@
-<!DOCTYPE html>
-<html lang="en-ca">
-<head>
-    <meta charset="utf-8">
-    <title>Sebastian's Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/typography.css">
-    <link rel="stylesheet" href="css/grids.css">
-</head>
-<body>
-    <div class="main-wrapper">
-        <header class="main-header">
-            <h1 class="main-logo">
-                <a href="index.html">
-                    <img class="logo-img" src="http://placehold.it/180x100" alt="Sebastian Nadeau">
-                </a>
-            </h1>
-            <nav>
-                <ul class="nav">
-                    <li><a href="#">All</a></li>
-                    <li><a href="#">Typography</a></li>
-                    <li><a href="#">Illustration</a></li>
-                    <li><a href="#">Interactive</a></li>
-                    <li><a href="#">Motion</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-		
-        <!--
-            ABOUT SECTION
-        -->
+---
+layout: default
+---
+
+<!--
+    ABOUT SECTION
+-->
+<section class="main-content">
+    <h3 id="name">Sebastian's Portfolio</h3>
+    <div class="about">
+        <img class="profile-pic" src="http://placehold.it/200x200" alt="Profile Picture">
+        <h2>About</h2>
+        <p id="columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis lobortis quam id venenatis. Integer eget pulvinar elit. Nunc magna mauris, sollicitudin eget ex quis, sagittis pretium velit. Morbi eget tortor vel massa iaculis tincidunt in eget nunc. Curabitur ornare faucibus fringilla. Praesent magna neque, auctor ac euismod sed, suscipit sed lorem. Curabitur euismod tellus et nibh condimentum mollis. Phasellus eleifend semper augue, ut feugiat orci fringilla non. Cras vel ultricies eros. Sed sed ante a ante gravida efficitur quis non dui. Fusce sagittis ullamcorper metus et tempus.</p>
+    </div>
+    
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+
+<!--
+    PORTFOLIO PREVIEW SECTION
+-->
+    <div class="grid">
+        <figure class="unit unit-s-1 unit-m-1-2">
+            <a href="#">
+                <img src="http://placehold.it/300x200" alt="Typography">
+                <figcaption>
+                    <h4>Typography</h4>
+                </figcaption>
+            </a>
+        </figure>
         
-        <section class="main-content">
-            <h3 id="name">Sebastian's Portfolio</h3>
-            <div class="about">
-                <img class="profile-pic" src="http://placehold.it/200x200" alt="Profile Picture">
-                <h2>About</h2>
-                <p id="columns">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis lobortis quam id venenatis. Integer eget pulvinar elit. Nunc magna mauris, sollicitudin eget ex quis, sagittis pretium velit. Morbi eget tortor vel massa iaculis tincidunt in eget nunc. Curabitur ornare faucibus fringilla. Praesent magna neque, auctor ac euismod sed, suscipit sed lorem. Curabitur euismod tellus et nibh condimentum mollis. Phasellus eleifend semper augue, ut feugiat orci fringilla non. Cras vel ultricies eros. Sed sed ante a ante gravida efficitur quis non dui. Fusce sagittis ullamcorper metus et tempus.</p>
-            </div>
-            
-            <h2>Hello</h2>
-            <h3>Hello</h3>
-            <h4>Hello</h4>
-            <h5>Hello</h5>
-            <h6>Hello</h6>
-        
-        <!--
-            PORTFOLIO PREVIEW SECTION
-        -->
-            <div class="grid">
-                <figure class="unit unit-s-1 unit-m-1-2">
-                    <a href="#">
-                        <img src="http://placehold.it/300x200" alt="Typography">
-                        <figcaption>
-                            <h4>Typography</h4>
-                        </figcaption>
-                    </a>
-                </figure>
-                
-                <figure class="unit unit-s-1 unit-m-1-2">
-                    <a href="#">
-                        <img src="http://placehold.it/300x200" alt="Illustration">
-                        <figcaption>
-                            <h4>Illustration</h4>
-                        </figcaption>
-                    </a>
-                </figure>
-            
-                <figure class="unit unit-s-1 unit-m-1-2">
-                    <a href="#">
-                        <img src="http://placehold.it/300x200" alt="Interactive">
-                        <figcaption>
-                            <h4>Interactive</h4>
-                        </figcaption>
-                    </a>
-                </figure>
-            
-                <figure class="unit unit-s-1 unit-m-1-2">
-                    <a href="#">
-                        <img src="http://placehold.it/300x200" alt="Motion">
-                        <figcaption>
-                            <h4>Motion</h4>
-                        </figcaption>
-                    </a>
-                </figure>
-            </div>
-        </section>
+        <figure class="unit unit-s-1 unit-m-1-2">
+            <a href="#">
+                <img src="http://placehold.it/300x200" alt="Illustration">
+                <figcaption>
+                    <h4>Illustration</h4>
+                </figcaption>
+            </a>
+        </figure>
+    
+        <figure class="unit unit-s-1 unit-m-1-2">
+            <a href="#">
+                <img src="http://placehold.it/300x200" alt="Interactive">
+                <figcaption>
+                    <h4>Interactive</h4>
+                </figcaption>
+            </a>
+        </figure>
+    
+        <figure class="unit unit-s-1 unit-m-1-2">
+            <a href="#">
+                <img src="http://placehold.it/300x200" alt="Motion">
+                <figcaption>
+                    <h4>Motion</h4>
+                </figcaption>
+            </a>
+        </figure>
+    </div>
+</section>
+
     
 		
-        <!--
-            FOOTER
-        -->
-    </div>       
-    <footer class="footer">
-        <img class="social-media-icons" src="http://placehold.it/100x100" alt="Behance">
-        <img class="social-media-icons" src="http://placehold.it/100x100" alt="Linked In">
-        <img class="social-media-icons" src="http://placehold.it/100x100" alt="Vimeo">
-        <p class="copyright">© Copyright 2015 Sebastian Nadeau</p>
-        <a class="terms" href="#">
-            <p>Terms and Privacy</p>
-        </a>
-    </footer>
     
-</body>
-</html>
