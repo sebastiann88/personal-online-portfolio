@@ -114,6 +114,15 @@ a {
     border-bottom-color: #52bab3;
 }
 
+.current {
+    color: #52bab3;
+}
+
+a + p {
+    margin: 0;
+}
+
+
 /* --------------------------
   CLEARFIX
 --------------------------- */
