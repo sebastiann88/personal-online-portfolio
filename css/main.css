@@ -131,7 +131,7 @@ a {
 
 .about {
     max-width: 70%;
-    margin: 0 auto 5em auto;
+    margin: 0 auto 3em auto;
 }
 
 #name {
@@ -142,7 +142,7 @@ a {
 .profile-pic {
     width: 12em;
     border-radius: 50%;
-    margin: 0 auto;
+    margin: 0 auto 1.5em auto;
 }
 
 
@@ -187,6 +187,7 @@ figure:hover figcaption {
 
 figcaption > h3 {
     text-align: center;
+    padding-top: 1em;
 }
 
 .previews {
@@ -230,7 +231,7 @@ figcaption > h3 {
 }
 
 /* --------------------------
-  Media Queries
+  MEDIA QUERIES
 --------------------------- */
 
 @media (min-width: 769px) {
@@ -254,7 +255,7 @@ figcaption > h3 {
 }
 
 /* --------------------------
-  Navigation Media Queries
+  NAVIGATION MEDIA QUERIES
 --------------------------- */
 
 @media (min-width: 769px) {

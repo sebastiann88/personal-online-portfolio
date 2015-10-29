@@ -1,5 +1,22 @@
+/* --------------------------
+  RESPONSIVE TYPOGRAPHY
+--------------------------- */
+
 html {
     font: normal 100%/1.5 "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media only screen and (min-width: 769px) {
+    
+    html {
+        font-size: 110%;    
+    }
+}
+
+@media only screen and (min-width: 1545px) {
+    html {
+        font-size: 120%;
+    }
 }
 
 h1, h2, h3, h4, h5, h6,
