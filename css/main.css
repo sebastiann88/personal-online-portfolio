@@ -185,7 +185,7 @@ figure:hover figcaption {
     bottom: 0em;
 }
 
-figcaption > h3 {
+figcaption > h4 {
     text-align: center;
     padding-top: 1em;
 }
