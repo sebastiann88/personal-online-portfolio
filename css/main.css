@@ -185,6 +185,10 @@ figure:hover figcaption {
     bottom: 0em;
 }
 
+figcaption > h3 {
+    text-align: center;
+}
+
 .previews {
     height: 100%;
 
