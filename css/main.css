@@ -200,7 +200,6 @@ figcaption > h4 {
 
 .previews {
     height: 100%;
-
 }
 
 /* --------------------------
@@ -229,6 +228,10 @@ figcaption > h4 {
 
 .motion {
     background-image:url(http://placehold.it/500x210);
+}
+
+#tab {
+    border-top-right-radius: 40px;
 }
 
 section figure {
