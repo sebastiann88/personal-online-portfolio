@@ -70,7 +70,7 @@ a {
 }
 
 /* --------------------------
-  HEADER
+  HEADER & NAVIGATION
 --------------------------- */
 
 .main-header,
@@ -105,7 +105,7 @@ a {
     font-size: 1.125em;
     font-weight: 300;
     text-align: center;
-    padding: .4em;
+    padding: 0;
     border-bottom: 1px solid #ebecec;
 }
 
@@ -124,17 +124,6 @@ a + p {
 
 
 /* --------------------------
-  CLEARFIX
---------------------------- */
-
-.group::after {
-    content: " ";
-    display: table;
-    clear: both;
-}
-
-
-/* --------------------------
   ABOUT SECTION
 --------------------------- */
 
@@ -144,7 +133,7 @@ a + p {
 }
 
 #name {
-    margin: 1em auto 1.5em auto;
+    margin: 1.3em auto 2.25em auto;
     text-align: center;
 }
 
@@ -154,6 +143,15 @@ a + p {
     margin: 0 auto 1.5em auto;
 }
 
+/* --------------------------
+  CLEARFIX
+--------------------------- */
+
+.group::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
 
 /* --------------------------
   PREVIEW SECTION
@@ -317,20 +315,18 @@ section figure:hover figcaption {
 --------------------------- */
 
 @media (min-width: 769px) {
-    
-    .main-header {
-        max-width: 60%;
+	.main-header {
+		justify-content: flex-end;
+        max-width: 72%;
         margin: 0 auto;
-        justify-content: flex-end;
-    } 
-
-    .nav {
-        flex-direction: row;
-        justify-content: space-between;
-    }
-    .nav a {
-        border-bottom-color: transparent;   
-    }
+	}
+	.nav {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.nav a {
+		border-bottom-color: transparent;
+	}
 }
 
 @media (min-width: 1545px) {
@@ -346,7 +342,7 @@ section figure:hover figcaption {
         margin: 0 .65em;
     }
     .main-logo {
-        margin: 0 auto 0 0;
+        margin-right: auto;
     }
 }
 
