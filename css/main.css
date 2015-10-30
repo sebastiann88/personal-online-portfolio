@@ -205,6 +205,40 @@ figcaption > h4 {
 }
 
 /* --------------------------
+  TYPOGRAPHY PAGE
+--------------------------- */
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background-image:url(http://placehold.it/500x200);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+section figure {
+    display: block;
+    overflow: visible;
+    position: relative;
+}
+
+section figcaption {
+    display: block;
+    padding: 0em;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 45%;
+    bottom: 0em;
+}
+
+section figure:hover figcaption {
+    bottom: 0em;
+}
+
+
+/* --------------------------
   FOOTER
 --------------------------- */
 
