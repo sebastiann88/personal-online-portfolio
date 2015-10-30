@@ -36,6 +36,8 @@ html, body {
 .main-wrapper {
     min-height: 100%;
     margin-bottom: -190px;
+    max-width: 100%;
+    margin: auto;
 }
 
 .main-wrapper:after {
@@ -64,11 +66,6 @@ a {
     font-weight: 400; 
 }
 
-.main-wrapper {
-    width: 90%;
-	margin: auto;
-}
-
 /* --------------------------
   HEADER & NAVIGATION
 --------------------------- */
@@ -86,7 +83,6 @@ a {
 
 .main-logo {
     display: block;
-    margin: 0 auto;
     align-self: center; 
     width: 200px;
 }
@@ -291,7 +287,7 @@ section figure:hover figcaption {
 --------------------------- */
 
 @media (min-width: 769px) {
-
+    
     #columns {
         -webkit-column-count: 2;
 		-webkit-column-gap: 2.5em;
@@ -302,19 +298,7 @@ section figure:hover figcaption {
 		column-count: 2;
 		column-gap: 2.5em;
 	}
-}
-
-@media (min-width: 1545px) {
-    .main-wrapper {
-        max-width: 60%;   
-    }
-}
-
-/* --------------------------
-  NAVIGATION MEDIA QUERIES
---------------------------- */
-
-@media (min-width: 769px) {
+    
 	.main-header {
 		justify-content: flex-end;
         max-width: 72%;
@@ -327,6 +311,9 @@ section figure:hover figcaption {
 	.nav a {
 		border-bottom-color: transparent;
 	}
+    .main-wrapper {
+        max-width: 80%;   
+    }
 }
 
 @media (min-width: 1545px) {
@@ -343,6 +330,9 @@ section figure:hover figcaption {
     }
     .main-logo {
         margin-right: auto;
+    }
+    .main-wrapper {
+        max-width: 60%;   
     }
 }
 
