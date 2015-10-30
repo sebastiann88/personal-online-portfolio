@@ -26,6 +26,10 @@ fieldset, pre, table {
     margin: 0 0 1.5rem 0;
 }
 
+#breathing-space {
+    margin: 0.5rem;
+}
+
 body {
     color: #797e83;
     font-size: 16px;
