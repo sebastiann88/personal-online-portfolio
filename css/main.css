@@ -317,7 +317,7 @@ section figure:hover figcaption {
 		border-bottom-color: transparent;
 	}
     .main-wrapper {
-        max-width: 80%;   
+        max-width: 90%;   
     }
 }
 
@@ -337,7 +337,12 @@ section figure:hover figcaption {
         margin-right: auto;
     }
     .main-wrapper {
-        max-width: 60%;   
+        max-width: 70%;   
+    }
+    
+    .previews-home {
+        max-width: 82%;
+        margin: 0 auto;
     }
 }
 
