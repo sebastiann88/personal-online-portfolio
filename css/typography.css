@@ -19,15 +19,19 @@ html {
     }
 }
 
-h1, h2, h3, h4, h5, h6,
+h1 {
+    margin: 0.5rem;
+}
+
+h2, h3, h4, h5, h6,
 p, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
     margin: 0 0 1.5rem 0;
 }
 
-#breathing-space {
-    margin: 0.5rem;
+div > h2, h2 + p {
+   margin: 0.75rem; 
 }
 
 body {
@@ -38,9 +42,7 @@ body {
     margin: 0;
 }
 
-p {
-    margin: 0.5rem;
-}
+
 
 /* --------------------------
   BRAND HEADLINES

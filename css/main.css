@@ -93,6 +93,8 @@ a {
 
 .nav {
     margin-top: 1.5em;
+    margin-left: auto;
+    margin right: auto;
 }
 
 .nav a {
@@ -259,7 +261,7 @@ section figure:hover figcaption {
   FOOTER
 --------------------------- */
 
-.footer {
+footer {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -267,20 +269,29 @@ section figure:hover figcaption {
     background-color: gray;
 }
 
+footer > div {
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
 .social-media-icons {
     display: inline-block;
     border-radius: 50%;
-    width: 60px;
-    margin: 0 1em;
+    width: 86px;
+    margin: 0;
+    padding: 0 0.5em;
 }
 
 .copyright {
+    display: block;
     color: white;
     text-align: center;
-    margin: 1 auto 0 auto;
+    margin: 0.75em auto 0 auto;
+    padding: 0;
 }
 
 .terms {
+    display: inline-block;
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -288,6 +299,7 @@ section figure:hover figcaption {
 
 .terms p {
     text-align: center;
+    margin: 0.175em auto;
 }
 
 /* --------------------------
@@ -308,19 +320,24 @@ section figure:hover figcaption {
 	}
     
 	.main-header {
-		justify-content: flex-end;
+		justify-content: space-between;
         max-width: 72%;
         margin: 0 auto;
 	}
 	.nav {
 		flex-direction: row;
 		justify-content: space-between;
+        align-self:center;
 	}
 	.nav a {
 		border-bottom-color: transparent;
 	}
     .main-wrapper {
         max-width: 90%;   
+    }
+    
+    footer > div {
+        max-width: 50%
     }
 }
 
