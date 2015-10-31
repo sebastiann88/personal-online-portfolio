@@ -398,6 +398,31 @@ footer > div {
     footer > div {
         max-width: 50%
     }
+
+    .nav-check:checked ~ .nav {
+        display: none;
+    }
+    
+    .nav-label {
+        display: none;
+        cursor: default;
+        width: 60px;
+        position: absolute;
+    }
+    
+    .nav-open,
+    .nav-close {
+        display: none;
+        width: 100%;
+    }
+    
+    .nav-check:checked ~ .nav-label .nav-open {
+        display: none;
+    }
+    
+    .nav-check:checked ~ .nav-label .nav-close {
+        display: none;
+    }
 }
 
 @media (min-width: 1545px) {
