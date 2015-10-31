@@ -103,7 +103,7 @@ nav {
     display: none;
     position: absolute;
     right: 0;
-    top: 0;
+    top: 100%;
     width: 100%;
     background-color: #797e83;
 }
@@ -385,6 +385,7 @@ footer > div {
         align-self:center;
         position: relative;
         background-color: transparent;
+        top: 0;
         
 	}
 	.nav a {
