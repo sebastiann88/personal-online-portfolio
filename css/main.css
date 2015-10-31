@@ -397,10 +397,6 @@ footer > div {
         color: #0b0b0b;    
     }
     
-    .main-wrapper {
-        max-width: 90%;   
-    }
-    
     footer > div {
         max-width: 50%
     }
@@ -429,7 +425,28 @@ footer > div {
     .nav-check:checked ~ .nav-label .nav-close {
         display: inline-block;
     }
+    
+    .main-wrapper {
+        max-width: 95%;   
+    }
+    
+    .previews-home {
+        max-width: 95%;
+        margin: 0 auto;
+    }
 }
+
+@media (min-width: 1000px) {
+    .main-wrapper {
+        max-width: 85%;   
+    }
+    
+    .previews-home {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+}
+
 
 @media (min-width: 1545px) {
     .main-header {
@@ -448,11 +465,11 @@ footer > div {
         margin-right: auto;
     }
     .main-wrapper {
-        max-width: 70%;   
+        max-width: 75%;   
     }
     
     .previews-home {
-        max-width: 82%;
+        max-width: 100%;
         margin: 0 auto;
     }
 }
