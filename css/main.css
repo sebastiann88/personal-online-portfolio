@@ -400,7 +400,7 @@ footer > div {
     }
 
     .nav-check:checked ~ .nav {
-        display: none;
+        display: flex;
     }
     
     .nav-label {
@@ -412,16 +412,16 @@ footer > div {
     
     .nav-open,
     .nav-close {
-        display: none;
+        display: inline-block;
         width: 100%;
     }
     
     .nav-check:checked ~ .nav-label .nav-open {
-        display: none;
+        display: inline-block;
     }
     
     .nav-check:checked ~ .nav-label .nav-close {
-        display: none;
+        display: inline-block;
     }
 }
 
