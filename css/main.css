@@ -70,15 +70,11 @@ a {
   HEADER & NAVIGATION
 --------------------------- */
 
-.main-header,
-.nav {
+.main-header {
+    position: relative;
     display: flex;
     flex-direction: column;
-}
-
-
-.main-header {
-    padding-top: 1.5em;
+    padding: 1.5em 0 0.75em;
 }
 
 .main-logo {
@@ -91,15 +87,26 @@ a {
     width: 100%;
 }
 
+a > p {
+    margin: 0;
+    padding: 0.75em 0;
+}
+
 .nav {
     margin-top: 1.5em;
     margin-left: auto;
     margin right: auto;
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    background-color: #797e83;
 }
 
 .nav a {
     display: block;
-    color: #797e83;
+    color: #fff;
     font-size: 1.125em;
     font-weight: 300;
     text-align: center;
@@ -108,8 +115,49 @@ a {
 }
 
 .nav a:hover {
-    color: #0b0b0b;
+    color: #52bab3;
     border-bottom-color: #52bab3;
+}
+
+.nav-check {
+    position: absolute;
+    top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+    display: block;
+}
+
+.nav-label {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid red;
+    width: 60px;
+    position: absolute;
+    right: 0;
+    bottom: -1.5em;
+}
+
+.nav-open,
+.nav-close {
+    display: block;
+    width: 100%;
+}
+
+.nav-check:checked ~ .nav-label {
+    color: #52bab3;
+}
+
+.nav-close {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+    display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+    display: block;
 }
 
 .current {
@@ -325,13 +373,24 @@ footer > div {
         margin: 0 auto;
 	}
 	.nav {
+        display: flex;
+        flex-direction: column;
 		flex-direction: row;
 		justify-content: space-between;
         align-self:center;
+        position: relative;
+        background-color: transparent;
+        
 	}
 	.nav a {
 		border-bottom-color: transparent;
+        color: #797e83;
 	}
+    
+    nav a: hover {
+        color: #0b0b0b;    
+    }
+    
     .main-wrapper {
         max-width: 90%;   
     }
@@ -348,11 +407,12 @@ footer > div {
     }
     .nav {
         flex-direction: row; align-items:;
-        align-self: center;
+        
     }
     .nav li {
-        margin: 0 .65em;
+        padding: 0 .75em;
     }
+    
     .main-logo {
         margin-right: auto;
     }

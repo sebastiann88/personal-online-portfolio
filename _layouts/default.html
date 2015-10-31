@@ -22,6 +22,11 @@
                 </a>
             </h1>
             <nav>
+                <input type="checkbox" class="nav-check" id="nav-check">
+                <label class="nav-label" for="nav-check">
+                    <img class="nav-open" src="http://placehold.it/80x80" alt="Open Navigation">
+                    <img class="nav-close" src="http://placehold.it/70x80" alt="Close Navigation">
+                </label>
                 <ul class="nav">
                     <li><a href="{{site.baseurl}}/all"><p class="{% if page.url == '/all' %}current{% endif %}">All</p></a></li>
                     <li><a href="{{site.baseurl}}/typography"><p class="{% if page.url == '/typography' %}current{% endif %}">Typography</p></a></li>
