@@ -92,6 +92,10 @@ a > p {
     padding: 0.75em 0;
 }
 
+nav {
+    z-index: 5;
+}
+
 .nav {
     margin-top: 1.5em;
     margin-left: auto;
