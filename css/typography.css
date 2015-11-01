@@ -19,14 +19,18 @@ html {
     }
 }
 
-h1 {
-    margin: 0.5em 0.5rem 0.75em;
-}
-
 h2, h3, h4, h5, h6, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
     margin: 0 0 1.5rem 0;
+}
+
+figcaption > h1 {
+    font-size: 1.2656rem;
+    line-height: 1.1852;
+    text-align: center;
+    color: white;
+    padding: 0.355em 0;
 }
 
 div > h2, h2 + p {
@@ -76,9 +80,10 @@ h1, h2, h3, h4, h5, h6,
     line-height: 1.4798;
 }
 
-h1, .exa {
+#h1, .exa {
     font-size: 1.802rem;
     line-height: 1.6648;
+    margin: 0.5em 0.5rem 0.75em;
 }
 
 h2, .peta {
@@ -170,6 +175,12 @@ h6, .kilo {
 
 @media (min-width: 769px) { 
     h1 {
+        margin: 0.5rem;
+    }
+}
+
+@media (min-width: 769px) { 
+    figcaption > h4 {
         margin: 0.5rem;
     }
 }

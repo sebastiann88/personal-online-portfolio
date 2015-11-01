@@ -33,13 +33,6 @@ html, body {
     margin: 0;
 }
 
-.main-wrapper {
-    min-height: 100%;
-    margin-bottom: -190px;
-    max-width: 100%;
-    margin: auto;
-}
-
 .main-wrapper:after {
     content: "";
     display: block;
@@ -64,6 +57,13 @@ a {
     color: #656a6e;
     text-decoration: none;
     font-weight: 400; 
+}
+
+.main-wrapper {
+    min-height: 100%;
+    margin-bottom: -190px;
+    max-width: 100%;
+    margin: auto;
 }
 
 /* --------------------------
@@ -226,13 +226,12 @@ img {
 figure {
     display: inline-block;
     margin: 0;
-    width: 400px;
     position: relative;
     overflow: hidden;
     
 }
 
-figcaption {
+a figcaption {
     display: block;
     padding: 0.95em;
     background-color: rgba(0,0,0,0.5);
@@ -247,9 +246,17 @@ figure:hover figcaption {
     bottom: 0em;
 }
 
+figcaption > h1 {
+    font-size: 1.2656rem;
+    line-height: 1.1852;
+    text-align: center;
+    color: white;
+    padding: 0.355em 0;
+}
+
 figcaption > h4 {
     text-align: center;
-    padding-top: 0.95em;
+    padding: 0.355em 0;
 }
 
 .previews {
@@ -465,6 +472,10 @@ footer > div {
         max-width: 95%;   
     }
     
+    #project-wrapper {
+        max-width: 85%%;
+    }
+    
     .previews-home {
         max-width: 95%;
         margin: 0 auto;
@@ -474,6 +485,11 @@ footer > div {
 @media (min-width: 1000px) {
     .main-wrapper {
         max-width: 85%;   
+    }
+    
+    #project-wrapper {
+        max-width: 85%;
+        margin: 0 auto;
     }
     
     .previews-home {
@@ -501,6 +517,10 @@ footer > div {
     }
     .main-wrapper {
         max-width: 75%;   
+    }
+    
+    #project-wrapper {
+        max-width: 75%;
     }
     
     .previews-home {
