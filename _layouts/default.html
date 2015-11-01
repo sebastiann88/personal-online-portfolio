@@ -29,12 +29,12 @@
                     <img class="nav-close" src="http://placehold.it/70x80" alt="Close Navigation">
                 </label>
                 <ul class="nav">
-                    <li><a href="{{site.baseurl}}/all"><p class="{% if page.url == '/all' %}current{% endif %}">All</p></a></li>
-                    <li><a href="{{site.baseurl}}/typography"><p class="{% if page.url == '/typography' %}current{% endif %}">Typography</p></a></li>
-                    <li><a href="{{site.baseurl}}/illustration"><p class="{% if page.url == '/illustration' %}current{% endif %}">Illustration</p></a></li>
-                    <li><a href="{{site.baseurl}}/interactive"><p class="{% if page.url == '/interactive' %}current{% endif %}">Interactive</p></a></li>
-                    <li><a href="{{site.baseurl}}/motion"><p class="{% if page.url == '/motion' %}current{% endif %}">Motion</p></a></li>
-                    <li><a href="{{site.baseurl}}/contact"><p class="{% if page.url == '/contact' %}current{% endif %}">Contact</p></a></li>
+                    <li><a href="{{site.baseurl}}/all"><p class="{% if page.url contains 'all' %}current{% endif %}">All</p></a></li>
+                    <li><a href="{{site.baseurl}}/typography/"><p class="{% if page.url contains 'typography' %}current{% endif %}">Typography</p></a></li>
+                    <li><a href="{{site.baseurl}}/illustration/"><p class="{% if page.url contains 'illustration' %}current{% endif %}">Illustration</p></a></li>
+                    <li><a href="{{site.baseurl}}/interactive/"><p class="{% if page.url contains 'interactive' %}current{% endif %}">Interactive</p></a></li>
+                    <li><a href="{{site.baseurl}}/motion"><p class="{% if page.url contains 'motion' %}current{% endif %}">Motion</p></a></li>
+                    <li><a href="{{site.baseurl}}/contact"><p class="{% if page.url contains 'contact' %}current{% endif %}">Contact</p></a></li>
                 </ul>
             </nav>
         </header>
