@@ -19,18 +19,10 @@ html {
     }
 }
 
-h2, h3, h4, h5, h6, ol, dl, dd,
+h2, h3, h5, h6, ol, dl, dd,
 blockquote, details, hr,
 fieldset, pre, table {
     margin: 0 0 1.5rem 0;
-}
-
-figcaption > h1 {
-    font-size: 1.2656rem;
-    line-height: 1.1852;
-    text-align: center;
-    color: white;
-    padding: 0.355em 0;
 }
 
 div > h2, h2 + p {
@@ -171,18 +163,6 @@ h6, .kilo {
 
 .pad-bottom-half {
   padding-bottom: 0.7500rem;
-}
-
-@media (min-width: 769px) { 
-    h1 {
-        margin: 0.5rem;
-    }
-}
-
-@media (min-width: 769px) { 
-    figcaption > h4 {
-        margin: 0.5rem;
-    }
 }
 
 
