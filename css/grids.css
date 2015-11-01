@@ -7,6 +7,10 @@
     float: left;
 }
 
+.unit-s-hidden {
+    visibility: hidden;
+    display: none;
+}
 .unit-s-1 {
     width: 100%;
 }
@@ -16,18 +20,21 @@
 }
 
 @media (min-width: 769px) {
-    
-    .unit-m-1-2 {
-        width: 50%
-    }
-
-    .unit-m-1-3 {
-        width: 33.33333%   
-    }
-    
     .unit-m-hidden {
         visibility: hidden;
         display: none;
+    }
+    
+    .unit-m-1-2 {
+        width: 50%;
+        visibility: visible;
+        display: block;
+    }
+
+    .unit-m-1-3 {
+        width: 33.33333%;
+        visibility: visible;
+        display: block;
     }
 }
 
