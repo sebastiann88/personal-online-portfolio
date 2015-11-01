@@ -331,6 +331,10 @@ img + p {
     vertical-align: middle;
 }
 
+button:hover {
+    color: #52bab3;
+}
+
 
 /* --------------------------
   FOOTER
