@@ -1,6 +1,9 @@
+$( document ).ready(function() {
+
 // TYPOGRAPHY
     
     //BRIDGEHEAD
+    
     
     $('#open-bridgehead-popup').magnificPopup({
     items: [
@@ -68,3 +71,5 @@
 // INTERACTIVE
 
 // MOTION
+        
+});
