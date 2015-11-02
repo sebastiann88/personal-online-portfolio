@@ -1,4 +1,7 @@
-$( document ).ready(function() {
+$( document ).ready(function() {  
+
+var getUrl = window.location;
+var baseUrl = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
 // TYPOGRAPHY
     
@@ -6,7 +9,7 @@ $( document ).ready(function() {
     
     
     $('#open-bridgehead-popup').magnificPopup({
-    items: [
+        items: [
           {
             src: 'http://placehold.it/1700x1100',
             title: 'Bridgehead 1'
