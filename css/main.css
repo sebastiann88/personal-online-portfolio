@@ -80,12 +80,13 @@ a {
 .main-logo {
     display: block;
     align-self: center; 
-    width: 200px;
+    width: 280px;
 }
 
 .logo-img {
     width: 100%;
 }
+
 
 li > a p {
     margin: 0;
