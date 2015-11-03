@@ -52,6 +52,10 @@
         visibility: visible;
         display: block;
     }
+    
+    .unit-m-2-3 {
+        width: 66.6666%;   
+    }
 }
 
 @media (min-width: 1000px) {

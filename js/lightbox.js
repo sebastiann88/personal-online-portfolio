@@ -12,20 +12,16 @@ $( document ).ready(function() {
             title: 'Bridgehead 1'
           },
                 {
-            src: 'http://placehold.it/1700x1100',
+            src: '../../images/typography/bridgehead-2.jpg',
             title: 'Bridgehead 2'
           },
                 {
-            src: 'http://placehold.it/1700x1100',
+            src: '../../images/typography/bridgehead-3.jpg',
             title: 'Bridgehead 3'
           },
                 {
-            src: 'http://placehold.it/1700x1100',
+            src: '../../images/typography/bridgehead-4.jpg',
             title: 'Bridgehead 4'
-          },
-                {
-            src: 'http://placehold.it/1700x1100',
-            title: 'Bridgehead 5'
           },
         ],
         gallery: {
@@ -41,31 +37,66 @@ $( document ).ready(function() {
     $('#open-tennis-serve-popup').magnificPopup({
     items: [
           {
-            src: 'http://placehold.it/1100x1700',
+            src: '../../images/illustration/the-tennis-serve-1.jpg',
             title: 'Tennis Serve 1'
           },
                 {
-            src: 'http://placehold.it/1100x1700',
+            src: '../../images/illustration/the-tennis-serve-4.jpg',
             title: 'Tennis Serve 2'
-          },
-                {
-            src: 'http://placehold.it/1100x1700',
-            title: 'Tennis Serve 3'
-          },
-                {
-            src: 'http://placehold.it/1100x1700',
-            title: 'Tennis Serve 4'
-          },
-                {
-            src: 'http://placehold.it/1100x1700',
-            title: 'Tennis Serve 5'
           },
         ],
         gallery: {
           enabled: true
         },
         type: 'image' // this is a default type
-    }); 
+    });
+    
+    //SENATOR CAMPAIGN
+    
+    $('#open-senator-campaign-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/illustration/senator-campaign-1.jpg',
+            title: 'Senator Campagn 1'
+          },
+                {
+            src: '../../images/illustration/senator-campaign-2.jpg',
+            title: 'Senator Campagn 2'
+          },
+                {
+            src: '../../images/illustration/senator-campaign-3.jpg',
+            title: 'Senator Campagn 3'
+          },
+                {
+            src: '../../images/illustration/senator-campaign-4.jpg',
+            title: 'Senator Campagn 4'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+        
+    //COMPANY POSTER
+        
+    $('#open-company-poster-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/illustration/company-poster-1.jpg',
+            title: 'Company Poster 1'
+          },
+                {
+            src: '../../images/illustration/company-poster-4.jpg',
+            title: 'Company Poster 2'
+          },
+
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
         
 
 // INTERACTIVE
