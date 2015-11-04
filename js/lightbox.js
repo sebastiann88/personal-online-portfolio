@@ -97,6 +97,34 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+    
+    //BLUES BROTHERS
+    
+    $('#open-blues-brothers-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/illustration/blues-brothers-4.jpg',
+            title: 'Blues Brothers 1'
+          },
+            {
+            src: '../../images/illustration/blues-brothers-3.jpg',
+            title: 'Blues Brothers 2'
+          },
+            {
+            src: '../../images/illustration/blues-brothers-1.jpg',
+            title: 'Blues Brothers 3'
+          },
+            {
+            src: '../../images/illustration/blues-brothers-2.jpg',
+            title: 'Blues Brothers 4'
+          },
+
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
         
 
 // INTERACTIVE
