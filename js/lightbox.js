@@ -48,6 +48,29 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+    
+    //COLLAGE
+            
+    $('#open-collage-popup').magnificPopup({
+        items: [
+          {
+            src: '../../images/typography/collage-2.jpg',
+            title: 'Collage 1'
+          },
+                {
+            src: '../../images/typography/collage-3.jpg',
+            title: 'Collage 2'
+          },
+                {
+            src: '../../images/typography/collage-1.jpg',
+            title: 'Collage 3'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
 
 // ILLUSTRATION
     
