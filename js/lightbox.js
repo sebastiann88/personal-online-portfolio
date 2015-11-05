@@ -29,6 +29,25 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+            
+    //GO WITH THE FLOW
+            
+    $('#open-go-with-the-flow-popup').magnificPopup({
+        items: [
+          {
+            src: '../../images/typography/go-with-the-flow-1.jpg',
+            title: 'Bridgehead 1'
+          },
+                {
+            src: '../../images/typography/go-with-the-flow-2.jpg',
+            title: 'Bridgehead 2'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
 
 // ILLUSTRATION
     
