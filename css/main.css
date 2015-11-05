@@ -279,7 +279,7 @@ figcaption > h5 {
 }
 
 .illustration {
-    background-image:url(http://placehold.it/500x190);
+    background-image:url("../images/banner-illustration.jpg");
 }
 
 .interactive {
