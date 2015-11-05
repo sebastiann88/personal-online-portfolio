@@ -71,6 +71,29 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+            
+    //OBSESSED WITH SPEED
+            
+    $('#open-obsessed-with-speed-popup').magnificPopup({
+        items: [
+            {
+            src: '../../images/typography/obsessed-with-speed-1.jpg',
+            title: 'Obsessed with Speed 1'
+          },
+            {
+            src: '../../images/typography/obsessed-with-speed-2.jpg',
+            title: 'Obsessed with Speed 2'
+          },
+            {
+            src: '../../images/typography/obsessed-with-speed-3.jpg',
+            title: 'Obsessed with Speed 1'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
 
 // ILLUSTRATION
     
