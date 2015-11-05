@@ -275,7 +275,7 @@ figcaption > h5 {
 }
 
 .typo {
-    background-image:url(http://placehold.it/500x180);
+    background-image:url("../images/banner-typography.jpg");
 }
 
 .illustration {
