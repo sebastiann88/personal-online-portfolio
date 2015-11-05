@@ -195,5 +195,19 @@ $( document ).ready(function() {
 // INTERACTIVE
 
 // MOTION
+    
+    $('#open-demo-reel-popup').magnificPopup({ 
+    items: [
+            {
+            src: 'https://vimeo.com/114408885',
+            type: 'iframe' // this overrides default type
+            },
+        ],
+        type: 'image' // this is a default type
+    });
+    
+    //DEMO REEL
+    
+    
         
 });
