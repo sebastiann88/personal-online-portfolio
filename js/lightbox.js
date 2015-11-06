@@ -218,6 +218,18 @@ $( document ).ready(function() {
         ],
         type: 'image' // this is a default type
     });
+    
+    //BUILDING A PORTFOLIO
+    
+    $('#open-building-a-portfolio-popup').magnificPopup({ 
+    items: [
+            {
+            src: 'https://vimeo.com/131720972',
+            type: 'iframe' // this overrides default type
+            },
+        ],
+        type: 'image' // this is a default type
+    });
 
     
     
