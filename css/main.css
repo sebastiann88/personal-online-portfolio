@@ -177,7 +177,6 @@ a + p {
 --------------------------- */
 
 .about {
-    max-width: 70%;
     margin: 0 auto 3em auto;
 }
 
@@ -476,12 +475,13 @@ footer > div {
     }
     
     .previews-home {
-        max-width: 95%;
+        max-width: 100%;
         margin: 0 auto;
     }
 }
 
 @media (min-width: 1000px) {
+    
     .main-wrapper {
         max-width: 85%;   
     }
@@ -492,7 +492,6 @@ footer > div {
     }
     
     .previews-home {
-        max-width: 85%;
         margin: 0 auto;
     }
 }
