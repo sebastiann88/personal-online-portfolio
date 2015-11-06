@@ -283,7 +283,7 @@ figcaption > h5 {
 }
 
 .interactive {
-    background-image:url(http://placehold.it/500x200);
+    background-image:url("../images/banner-interactive.jpg");
 }
 
 .motion {
