@@ -4,7 +4,6 @@ $( document ).ready(function() {
     
     //BRIDGEHEAD
     
-    
     $('#open-bridgehead-popup').magnificPopup({
         items: [
           {
@@ -196,6 +195,8 @@ $( document ).ready(function() {
 
 // MOTION
     
+    //DEMO REEL
+    
     $('#open-demo-reel-popup').magnificPopup({ 
     items: [
             {
@@ -206,7 +207,18 @@ $( document ).ready(function() {
         type: 'image' // this is a default type
     });
     
-    //DEMO REEL
+    //BLUE HEN FARM
+    
+    $('#open-blue-hen-farm-popup').magnificPopup({ 
+    items: [
+            {
+            src: 'https://vimeo.com/110826581',
+            type: 'iframe' // this overrides default type
+            },
+        ],
+        type: 'image' // this is a default type
+    });
+
     
     
         
