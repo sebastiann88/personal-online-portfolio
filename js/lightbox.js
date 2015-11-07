@@ -192,6 +192,50 @@ $( document ).ready(function() {
         
 
 // INTERACTIVE
+    
+    //ASCENT APP
+    
+    $('#open-ascent-app-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/interactive/ascent-app-1.jpg',
+            title: 'Ascent App 1'
+          },
+            {
+            src: '../../images/interactive/ascent-app-2.jpg',
+            title: 'Ascent App 2'
+          },
+            {
+            src: '../../images/interactive/ascent-app-3.jpg',
+            title: 'Ascent App 3'
+          },
+            {
+            src: '../../images/interactive/ascent-app-4.jpg',
+            title: 'Ascent App 4'
+          },
+            {
+            src: '../../images/interactive/ascent-app-5.jpg',
+            title: 'Ascent App 5'
+          },
+            {
+            src: '../../images/interactive/ascent-app-6.jpg',
+            title: 'Ascent App 6'
+          },
+            {
+            src: '../../images/interactive/ascent-app-7.jpg',
+            title: 'Ascent App 7'
+          },
+            {
+            src: '../../images/interactive/ascent-app-8.jpg',
+            title: 'Ascent App 8'
+          },
+
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
 
 // MOTION
     
