@@ -230,8 +230,17 @@ $( document ).ready(function() {
         ],
         type: 'image' // this is a default type
     });
-
     
+    //TENNIS INFOGRAPHIC
     
-        
+    $('#open-tennis-infographic-popup').magnificPopup({ 
+    items: [
+            {
+            src: 'https://vimeo.com/84920842',
+            type: 'iframe' // this overrides default type
+            },
+        ],
+        type: 'image' // this is a default type
+    });
+     
 });
