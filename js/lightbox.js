@@ -276,6 +276,25 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+    
+    //PALISAR
+    
+    $('#open-palisar-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/interactive/palisar-1.jpg',
+            title: 'Palisar 1'
+          },
+            {
+            src: '../../images/interactive/palisar-2.jpg',
+            title: 'Palisar 2'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
 
 // MOTION
     
