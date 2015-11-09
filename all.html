@@ -2,34 +2,41 @@
 layout: default
 ---
 
-<section>
-    <figure class="banner typo">
-        <figcaption id="tab"><h5>Typography</h5></figcaption>
-    </figure>
-</section>
+<div id="all-border-top">
+    <section>
+        <figure class="banner typo">
+            <figcaption id="tab"><h5>Typography</h5></figcaption>
+        </figure>
+    </section>
+    {% include typography.html %}
+</div>
 
-{% include typography.html %}
 
-<section>
-    <figure class="banner illustration">
-        <figcaption id="tab"><h5>Illustration</h5></figcaption>
-    </figure>
-</section>
+<div id="all-border">
+    <section>
+        <figure class="banner illustration">
+            <figcaption id="tab"><h5>Illustration</h5></figcaption>
+        </figure>
+    </section>
+    {% include illustration.html %}
+</div>
 
-{% include illustration.html %}
 
-<section>
-    <figure class="banner interactive">
-        <figcaption id="tab"><h5>Interactive</h5></figcaption>
-    </figure>
-</section>
+<div id="all-border">
+    <section>
+        <figure class="banner interactive">
+            <figcaption id="tab"><h5>Interactive</h5></figcaption>
+        </figure>
+    </section>
+    {% include interactive.html %}
+</div>
 
-{% include interactive.html %}
 
-<section>
-    <figure class="banner motion">
-        <figcaption id="tab"><h5>Motion</h5></figcaption>
-    </figure>
-</section>
-
-{% include motion.html %}
+<div>
+    <section>
+        <figure class="banner motion">
+            <figcaption id="tab"><h5>Motion</h5></figcaption>
+        </figure>
+    </section>
+    {% include motion.html %}
+</div>

@@ -276,6 +276,14 @@ figcaption > h5 {
   BANNERS
 --------------------------- */
 
+#all-border-top {
+    padding-bottom: 3em;
+}
+
+#all-border {
+    padding-bottom: 3em;
+}
+
 .banner {
     width: 100%;
     height: 300px;
