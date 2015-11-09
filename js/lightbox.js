@@ -295,6 +295,42 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+        
+    //GALACTIC ADVENTURES
+    
+    $('#open-galactic-adventures-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/interactive/galactic-adventures-1.jpg',
+            title: 'Galactic Adventures 1'
+          },
+            {
+            src: '../../images/interactive/galactic-adventures-2.jpg',
+            title: 'Galactic Adventures 2'
+          },
+            {
+            src: '../../images/interactive/galactic-adventures-3.jpg',
+            title: 'Galactic Adventures 3'
+          },
+            {
+            src: '../../images/interactive/galactic-adventures-4.jpg',
+            title: 'Galactic Adventures 4'
+          },
+            {
+            src: '../../images/interactive/galactic-adventures-5.jpg',
+            title: 'Galactic Adventures 5'
+          },
+            {
+            src: '../../images/interactive/galactic-adventures-6.jpg',
+            title: 'Galactic Adventures 6'
+          },
+
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
 
 // MOTION
     
