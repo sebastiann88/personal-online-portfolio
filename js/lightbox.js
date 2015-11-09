@@ -236,6 +236,46 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+        
+    //GOOD TO TALK APP
+    
+    $('#open-good-to-talk-app-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/interactive/good-to-talk-1.jpg',
+            title: 'Good to Talk 1'
+          },
+            {
+            src: '../../images/interactive/good-to-talk-2.jpg',
+            title: 'Good to Talk 2'
+          },
+            {
+            src: '../../images/interactive/good-to-talk-3.jpg',
+            title: 'Good to Talk 3'
+          },
+            {
+            src: '../../images/interactive/good-to-talk-4.jpg',
+            title: 'Good to Talk 4'
+          },
+            {
+            src: '../../images/interactive/good-to-talk-5.jpg',
+            title: 'Good to Talk 5'
+          },
+            {
+            src: '../../images/interactive/good-to-talk-6.jpg',
+            title: 'Good to Talk 6'
+          },
+            {
+            src: '../../images/interactive/good-to-talk-7.jpg',
+            title: 'Good to Talk 7'
+          },
+
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
 
 // MOTION
     
