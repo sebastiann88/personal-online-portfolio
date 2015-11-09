@@ -1,6 +1,5 @@
 .grid {
-    overflow: hidden;
-    border: 1px solid red; 
+    overflow: hidden; 
 }
 
 .unit {

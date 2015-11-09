@@ -233,6 +233,12 @@ figure {
     
 }
 
+/*
+figure > a img {
+    padding: 0.35em;
+    border: 1px solid #52bab3;
+} */
+
 a figcaption {
     display: block;
     padding: 0.95em;
@@ -264,6 +270,7 @@ figcaption > h5 {
 .previews {
     height: 100%;
 }
+
 
 /* --------------------------
   BANNERS
@@ -342,15 +349,6 @@ img + p {
 button:hover {
     color: #52bab3;
 }
-
-/* --------------------------
-  JAVASCRIPT
---------------------------- */
-
-#open-bridgehead-popup {
-    padding: 0.75em 0;
-}
-
 
 
 /* --------------------------
