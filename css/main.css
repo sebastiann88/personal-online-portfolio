@@ -87,10 +87,14 @@ a {
     width: 100%;
 }
 
+li > a {
+    margin: 0.75em;
+}
+
 
 li > a p {
-    margin: 0;
-    padding: 0.75em 0;
+    margin: 0.35em;
+    padding: 0;
 }
 
 nav {
