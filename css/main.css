@@ -420,9 +420,8 @@ footer > div {
 	
 		-moz-column-count: 2;
 		-moz-column-gap: 2.5em;
-	
-		column-count: 2;
-		column-gap: 2.5em;
+        
+        margin: 0 auto;
 	}
     
 	.main-header {
@@ -505,6 +504,14 @@ footer > div {
         margin: 0 auto;
     }
     
+    #columns {
+        max-width: 95%;   
+    }
+    
+    #breathing-space {
+        display: block;   
+    }
+    
     .previews-home {
         margin: 0 auto;
     }
@@ -541,6 +548,10 @@ footer > div {
     
     #project-wrapper {
         max-width: 75%;
+    }
+    
+    #columns {
+        max-width: 85%;   
     }
     
     .previews-home {
