@@ -344,6 +344,13 @@ button {
     display: block;
     width: 100%;
     margin: 0 auto;
+    background-color: #52bab3;
+    background-image: linear-gradient(to bottom, #52bab3, #025E63);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    border: 0;
+    color: #fff;
 }
 
 button > img {
@@ -359,7 +366,9 @@ img + p {
 }
 
 button:hover {
-    color: #52bab3;
+    color: #025E63;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff, #52bab3);
 }
 
 
