@@ -214,6 +214,9 @@ h3 + h5 {
   PREVIEW SECTION
 --------------------------- */
 
+.slick-dots li button:before {
+    font-size: 10px;
+}
 
 a {
     margin: 0;
@@ -232,12 +235,6 @@ figure {
     overflow: hidden;
     
 }
-
-/*
-figure > a img {
-    padding: 0.35em;
-    border: 1px solid #52bab3;
-} */
 
 a figcaption {
     display: block;
