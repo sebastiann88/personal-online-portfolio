@@ -243,12 +243,8 @@ a figcaption {
     color: white;
     position: absolute;
     width: 100%;
-    bottom: -7em;
-    transition: all 200ms ease-out;
-}
-
-figure:hover figcaption {
     bottom: 0em;
+    transition: all 200ms ease-out;
 }
 
 figcaption > h1 {
@@ -498,7 +494,7 @@ footer > div {
     }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1026px) {
     
     .main-wrapper {
         max-width: 85%;   
@@ -511,6 +507,14 @@ footer > div {
     
     .previews-home {
         margin: 0 auto;
+    }
+    
+    a figcaption {
+        bottom: -7em;   
+    }
+    
+    figure:hover figcaption {
+        bottom: 0em;
     }
 }
 
