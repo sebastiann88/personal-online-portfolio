@@ -180,7 +180,7 @@ a + p {
   ABOUT SECTION
 --------------------------- */
 
-.about {
+.about-section {
     margin: 0 auto 3em auto;
 }
 
@@ -504,8 +504,8 @@ footer > div {
         margin: 0 auto;
     }
     
-    #columns {
-        max-width: 95%;   
+    .about {
+        max-width: 95%;
     }
     
     #breathing-space {
@@ -550,7 +550,7 @@ footer > div {
         max-width: 75%;
     }
     
-    #columns {
+    .about {
         max-width: 85%;   
     }
     

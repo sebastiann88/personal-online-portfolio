@@ -30,11 +30,11 @@ h2 {
     column-span: all;
 }
 
-#columns p, #columns h2 {
-    margin: 0.75rem; 
+.about > h2 {
+    margin: 0 0.75rem 0.75rem;
 }
 
-#columns p {
+p {
     margin: 0 0.75rem 1.5em;
 }
 
