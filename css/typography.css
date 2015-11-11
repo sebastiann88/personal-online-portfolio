@@ -30,7 +30,7 @@ h2 {
     column-span: all;
 }
 
-.about > h2 {
+.about > h2, .push-top-double > h2 {
     margin: 0 0.75rem 0.75rem;
 }
 
