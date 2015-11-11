@@ -423,7 +423,7 @@ footer > div {
 
 @media (min-width: 769px) {
     
-    #columns {
+    #columns, .push-top-double > h2 {
         -webkit-column-count: 2;
 		-webkit-column-gap: 2.5em;
 	
