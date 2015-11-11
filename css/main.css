@@ -429,8 +429,6 @@ footer > div {
 	
 		-moz-column-count: 2;
 		-moz-column-gap: 2.5em;
-        
-        margin: 0 auto;
 	}
     
 	.main-header {
@@ -513,7 +511,7 @@ footer > div {
         margin: 0 auto;
     }
     
-    .about {
+    .about-section {
         max-width: 95%;
     }
     
@@ -559,7 +557,7 @@ footer > div {
         max-width: 75%;
     }
     
-    .about {
+    .about-section {
         max-width: 85%;   
     }
     
