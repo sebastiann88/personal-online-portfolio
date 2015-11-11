@@ -340,7 +340,7 @@ section figure:hover figcaption {
   BUTTONS
 --------------------------- */
 
-button {
+div + button {
     display: block;
     width: 100%;
     margin: 0 auto;
@@ -365,7 +365,7 @@ img + p {
     vertical-align: middle;
 }
 
-button:hover {
+div + button:hover {
     color: #025E63;
     background-color: #fff;
     background-image: linear-gradient(to bottom, #fff, #52bab3);
