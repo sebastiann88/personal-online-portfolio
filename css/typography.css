@@ -27,7 +27,7 @@ fieldset, pre, table {
 
 h2 {
     -webkit-column-span: all; /* Chrome, Safari, Opera */
-    column-span: all;
+
 }
 
 .about-section > h2, .push-top-double > h2 {
@@ -39,9 +39,14 @@ p {
     margin-right: 0.75rem;
 }
 
-#columns p {
+#columns > p {
     margin-top: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
+    text-indent: 3em;
+}
+
+#columns > p:first-child {
+    text-indent: 0em;
 }
 
 body {

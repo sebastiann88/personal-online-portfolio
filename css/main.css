@@ -423,12 +423,12 @@ footer > div {
 
 @media (min-width: 769px) {
     
-    #columns, .push-top-double > h2 {
+    #columns {
         -webkit-column-count: 2;
-		-webkit-column-gap: 2.5em;
+		-webkit-column-gap: 3em;
 	
 		-moz-column-count: 2;
-		-moz-column-gap: 2.5em;
+		-moz-column-gap: 3em;
 	}
     
 	.main-header {
@@ -511,7 +511,7 @@ footer > div {
         margin: 0 auto;
     }
     
-    .about-section {
+    .about-section, .push-top-double {
         max-width: 95%;
     }
     
@@ -557,8 +557,8 @@ footer > div {
         max-width: 75%;
     }
     
-    .about-section {
-        max-width: 85%;   
+    .about-section, .push-top-double {
+        max-width: 82%;   
     }
     
     .previews-home {
