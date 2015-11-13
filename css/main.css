@@ -365,7 +365,7 @@ img + p {
     vertical-align: middle;
 }
 
-div + button:hover {
+#project-wrapper > button:hover {
     color: #025E63;
     background-color: #fff;
     background-image: linear-gradient(to bottom, #fff, #52bab3);
