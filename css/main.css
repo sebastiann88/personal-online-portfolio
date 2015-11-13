@@ -247,7 +247,7 @@ a figcaption {
     transition: all 200ms ease-out;
 }
 
-figcaption > h1 {
+figcaption > h2 {
     font-size: 1.2656rem;
     line-height: 1.1852;
     text-align: center;

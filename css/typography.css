@@ -25,13 +25,15 @@ fieldset, pre, table {
     margin: 0 0 1.5rem 0;
 }
 
-h2 {
+h1 {
     -webkit-column-span: all; /* Chrome, Safari, Opera */
 
 }
 
-.about-section > h2, .push-top-double > h2 {
+.about-section > h1, .push-top-double > h1 {
     margin: 0 0.75rem 0.75rem;
+    font-size: 1.6018rem;
+    line-height: 1.8729;
 }
 
 p {
@@ -65,8 +67,12 @@ body {
   BRAND HEADLINES
 --------------------------- */
 
-h1, h2, h3, h4, h6,
+h1, h3, h4, h6,
 .brand {
+    color: #025E63;
+}
+
+#h2 {
     color: #025E63;
 }
 
