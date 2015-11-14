@@ -200,6 +200,41 @@ h3 + h5 {
     margin: 3em auto 1.5em auto;
 }
 
+#columns > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 1.5em;
+}
+
+.contact {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 1.5em; 
+}
+
+.border-bottom {
+    border-bottom: 1px solid #52bab3;
+    padding-bottom: 1.5rem;
+}
+
+.e-mail {
+    display: block;
+    width: 100%;
+    margin: 0 auto 0 0.75rem;   
+}
+
+.e-mail-icon {
+    display: inline-block;
+    width: 3.5em;
+    vertical-align: middle;
+    padding-right: 0.75em;
+}
+
+img + h5 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* --------------------------
   CLEARFIX
 --------------------------- */
