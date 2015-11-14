@@ -92,7 +92,7 @@ li > a {
 }
 
 
-li > a p {
+li > a h6 {
     margin: 0.35em 0;
     padding: 0;
 }

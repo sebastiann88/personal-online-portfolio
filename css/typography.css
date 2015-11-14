@@ -67,7 +67,7 @@ body {
   BRAND HEADLINES
 --------------------------- */
 
-h1, h3, h4, h6,
+h1, h3, h4,
 .brand {
     color: #025E63;
 }
@@ -128,7 +128,8 @@ h5, .mega {
 
 h6, .kilo {
     font-size: 1.0000rem;
-    line-height: 1.5000; 
+    line-height: 1.5000;
+    font-weight: 300;
 }
 
 .mili {
