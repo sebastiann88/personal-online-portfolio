@@ -74,6 +74,8 @@ h1, h3, h4,
 
 #h2 {
     color: #025E63;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
 }
 
 .brand-family {
