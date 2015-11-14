@@ -7,20 +7,12 @@ $( document ).ready(function() {
     $('#open-bridgehead-popup').magnificPopup({
         items: [
           {
-            src: '../../images/typography/bridgehead-1.jpg',
+            src: '../../images/typography/bridgehead-2.jpg',
             title: 'Bridgehead 1'
           },
                 {
-            src: '../../images/typography/bridgehead-2.jpg',
-            title: 'Bridgehead 2'
-          },
-                {
             src: '../../images/typography/bridgehead-3.jpg',
-            title: 'Bridgehead 3'
-          },
-                {
-            src: '../../images/typography/bridgehead-4.jpg',
-            title: 'Bridgehead 4'
+            title: 'Bridgehead 2'
           },
         ],
         gallery: {
@@ -35,11 +27,11 @@ $( document ).ready(function() {
         items: [
           {
             src: '../../images/typography/go-with-the-flow-1.jpg',
-            title: 'Bridgehead 1'
+            title: 'Go with the Flow 1'
           },
                 {
             src: '../../images/typography/go-with-the-flow-2.jpg',
-            title: 'Bridgehead 2'
+            title: 'Go with the Flow 2'
           },
         ],
         gallery: {
