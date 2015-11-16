@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
     <meta charset="utf-8">
-    <title>Sebastian Nadeau | Graphic Designer</title>
+    <title>{% if page.title %}{{page.title}} · {% endif %}Sebastian Nadeau{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Sebastian Nadeau - My design portfolio showcasing the graphic design work I have done in Ottawa.">
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
