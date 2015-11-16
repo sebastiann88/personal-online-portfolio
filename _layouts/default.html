@@ -5,14 +5,14 @@
     <title>{% if page.title %}{{page.title}} · {% endif %}Sebastian Nadeau{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{page.meta}}">
-    <!-- Used by Facebook, Pinterestm Google+ 
+    <!-- Used by Facebook, Pinterestm Google+ -->
     <meta property="og:type" content="article">
     <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Sebastian Nadeau{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}">
     <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
     <meta property="og:site_name" content="Sebastian Nadeau | Graphic Designer">
     <meta property="og:description" content="{{page.meta}}">
--->
+
     
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
     <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
