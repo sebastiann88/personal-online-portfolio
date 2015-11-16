@@ -1,4 +1,5 @@
 exclude: ['README.md']
 title: Sebastian Nadeau | Graphic Designer
 description: Sebastian Nadeau - My design portfolio showcasing the graphic design work I have done in Ottawa.
+icon: /images/logotype.svg
 permalink: pretty
