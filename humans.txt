@@ -1,0 +1,30 @@
+# TEAM
+
+Designer & Developer: Sebastian Nadeau <sebastian.nadeau66@gmail.com>
+Site: http://sebastiannadeau.ca
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Web Development Teacher: Thomas J Bradley <hey@thomasjbradley.ca>
+Helpful Resources: You Tube videos by Thomas J Bradley, Team Treehouse & Codeschool
+Social Media Icon Designer: Jorge Calvo Garcia <https://www.behance.net/gallery/FREE-Flat-Social-Icons-EPS/8786901>
+
+---
+
+# TECHNOLOGY
+
+- Brackets
+- Git + Github
+- Jekyll
+- html
+- css
+- javascript(jquery)
+
+---
+
+# HOSTING
+
+Hover <https://www.hover.com/>
