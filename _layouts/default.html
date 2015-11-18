@@ -9,11 +9,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{page.meta}}">
     <!-- Used by Facebook, Pinterest, Google+ -->
-    <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Sebastian Nadeau{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}">
-    <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
-    <meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Sebastian Nadeau{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}">
     <meta property="og:description" content="{{page.meta}}">
+    <meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+    <meta property="fb:app_id" content="[FB_APP_ID]" />
     
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
     <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
