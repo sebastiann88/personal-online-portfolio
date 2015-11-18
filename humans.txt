@@ -14,9 +14,9 @@ Lightbox Plugin by Web Developer: Dmitry Semenov <http://dimsemenov.com/plugins/
 
 Carousel Plugin by Web Developer: Ken Wheeler <http://kenwheeler.github.io/slick/>
 
-Helpful Resources: You Tube videos by Thomas J Bradley, Team Treehouse & Codeschool
-
 Social Media Icon Designer: Jorge Calvo Garcia <https://www.behance.net/gallery/FREE-Flat-Social-Icons-EPS/8786901>
+
+Helpful Resources: You Tube videos by Thomas J Bradley, Team Treehouse & Codeschool
 
 ---
 
