@@ -8,8 +8,14 @@ Location: Ottawa, Canada
 
 # THANKS
 
-Web Development Teacher: Thomas J Bradley <hey@thomasjbradley.ca>
+Web Development Professor: Thomas J Bradley <hey@thomasjbradley.ca>
+
+Lightbox Plugin by Web Developer: Dmitry Semenov <http://dimsemenov.com/plugins/magnific-popup/>
+
+Carousel Plugin by Web Developer: Ken Wheeler <http://kenwheeler.github.io/slick/>
+
 Helpful Resources: You Tube videos by Thomas J Bradley, Team Treehouse & Codeschool
+
 Social Media Icon Designer: Jorge Calvo Garcia <https://www.behance.net/gallery/FREE-Flat-Social-Icons-EPS/8786901>
 
 ---
