@@ -332,16 +332,72 @@ figcaption > h5 {
     background-image:url("../images/banner-typography.jpg");
 }
 
-.illustration {
-    background-image:url("../images/banner-illustration.jpg");
-}
-
 .interactive {
     background-image:url("../images/banner-interactive.jpg");
 }
 
-.motion {
-    background-image:url("../images/banner-motion.jpg");
+.bridgehead {
+    background-image:url("../images/typography/bridgehead-banner.jpg");
+}
+
+.go-with-the-flow {
+    background-image:url("../images/typography/go-with-the-flow-banner.jpg");
+}
+
+.collage {
+    background-image:url("../images/typography/collage-banner.jpg");
+}
+
+.obsessed-with-speed {
+    background-image:url("../images/typography/obsessed-with-speed-banner.jpg");
+}
+
+.the-tennis-serve {
+    background-image:url("../images/illustration/the-tennis-serve-banner.jpg");
+}
+
+.senator-campaign {
+    background-image:url("../images/illustration/senator-campaign-banner.jpg");
+}
+
+.company-poster {
+    background-image:url("../images/illustration/company-poster-banner.jpg");
+}
+
+.blues-brothers {
+    background-image:url("../images/illustration/blues-brothers-banner.jpg");
+}
+
+.ascent-app {
+    background-image:url("../images/interactive/ascent-app-banner.jpg");
+}
+
+.good-to-talk-app {
+    background-image:url("../images/interactive/good-to-talk-banner.jpg");
+}
+
+.palisar {
+    background-image:url("../images/interactive/palisar-banner.jpg");
+}
+
+.galactic-adventures {
+    background-image:url("../images/interactive/galactic-adventures-banner.jpg");
+}
+
+.demo-reel {
+    background-image:url("../images/motion/demo-reel-banner.jpg");
+}
+
+.blue-hen-farm {
+    background-image:url("../images/motion/blue-hen-farm-banner.jpg");
+}
+
+.building-a-portfolio {
+    background-image:url("../images/motion/building-a-portfolio-banner.jpg");
+}
+
+.tennis-infographic {
+    background-image:url("../images/motion/tennis-infographic-banner.jpg");
 }
 
 #tab {
