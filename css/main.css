@@ -430,7 +430,7 @@ section figure:hover figcaption {
 
 div + button {
     display: block;
-    width: 50%;
+    width: 15em;
     margin: 1.5rem auto;
     background-color: #52bab3;
     background-image: linear-gradient(to bottom, #52bab3, #025E63);
@@ -602,10 +602,6 @@ footer > div {
         max-width: 95%;
     }
     
-    div + button {
-        width: 45%;   
-    }
-    
     #breathing-space {
         display: block;   
     }
@@ -650,10 +646,6 @@ footer > div {
     
     .about-section, .push-top-double {
         max-width: 82%;   
-    }
-    
-    div + button {
-        width: 40%;   
     }
     
     .previews-home {
