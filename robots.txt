@@ -2,7 +2,3 @@ Sitemap: http://sebastiannadeau.ca/sitemap.xml
 
 User-agent: *
 Disallow: /images
-Disallow: /images/illustration/senator-campaign-1.jpg
-Disallow: /images/illustration/senator-campaign-2.jpg
-Disallow: /images/illustration/senator-campaign-3.jpg
-Disallow: /images/illustration/senator-campaign-4.jpg
