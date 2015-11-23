@@ -9,11 +9,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{page.meta}}">
     <!-- Used by Facebook, Pinterest, Google+ -->
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:url" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
     <meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Sebastian Nadeau{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}">
     <meta property="og:description" content="{{page.meta}}">
     <meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+    <meta property="fb:admins" content="504321206">
+    <meta property="fb:app_id" content="936431279738647">
     
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
     <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
@@ -26,6 +28,29 @@
 </head>
     
 <body>
+    
+<!-- This is Facebook's SDK 
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '936431279738647',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+-->
+
         
     <!--
         HEADER
