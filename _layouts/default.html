@@ -14,6 +14,7 @@
     <meta property="og:title" content="{% if page.title %}{{page.title}} · {% endif %}Sebastian Nadeau{% if page.titleAfter %} | {{page.titleAfter}}{% endif %}">
     <meta property="og:description" content="{{page.meta}}">
     <meta property="og:image" content="{% if page.featured_image %}{{ page.featured_image | prepend: site.baseurl | prepend: site.url }}{% else %}{{ site.icon | prepend: site.baseurl | prepend: site.url }}{% endif %}">
+    <meta property="fb:app_id" content="535194376661678">
     
     <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
     <link rel="stylesheet" href="{{site.baseurl}}/css/normalize.css">
@@ -27,12 +28,12 @@
     
 <body>
     
-<!-- This is Facebook's SDK 
+ <!-- This is Facebook's SDK
 
 <script>
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '936431279738647',
+      appId      : '535194376661678',
       xfbml      : true,
       version    : 'v2.5'
     });
@@ -48,7 +49,6 @@
 </script>
 
 -->
-
         
     <!--
         HEADER
@@ -76,6 +76,15 @@
                 </ul>
             </nav>
         </header>
+
+<!-- Facebook Like button
+    <div
+      class="fb-like"
+      data-share="true"
+      data-width="450"
+      data-show-faces="true">
+    </div>
+-->
         
         {{content}}
         
