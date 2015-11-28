@@ -580,11 +580,12 @@ footer > div {
     }
     
     .main-wrapper {
-        max-width: 95%;   
+        max-width: 100%;   
     }
     
     #project-wrapper {
-        max-width: 85%%;
+        max-width: 100%;
+        margin: 0 auto;
     }
     
     .previews-home {
@@ -596,16 +597,16 @@ footer > div {
 @media (min-width: 1026px) {
     
     .main-wrapper {
-        max-width: 85%;   
+        max-width: 100%;   
     }
     
     #project-wrapper {
-        max-width: 85%;
+        max-width: 100%;
         margin: 0 auto;
     }
     
     .about-section, .push-top-double {
-        max-width: 95%;
+        max-width: 100%;
     }
     
     #breathing-space {
@@ -653,11 +654,13 @@ footer > div {
     }
     
     #project-wrapper {
-        max-width: 75%;
+        max-width: 85%;
     }
     
     .about-section, .push-top-double {
-        max-width: 82%;   
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
     }
     
     .previews-home {
