@@ -40,6 +40,12 @@
         display: none;
     }
     
+    .unit-m-1 {
+        width: 100%;
+        visibility: visible;
+        display: block;
+    }
+    
     .unit-m-1-2 {
         width: 50%;
         visibility: visible;
