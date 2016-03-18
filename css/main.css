@@ -188,6 +188,7 @@ a + p {
 --------------------------- */
 
 .about-section, .push-top-double {
+    margin: 1.5rem;
     max-width: 95%;
 }
 
