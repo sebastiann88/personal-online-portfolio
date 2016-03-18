@@ -66,6 +66,10 @@ a {
     margin: auto;
 }
 
+#project-wrapper {
+    margin: 0 auto;
+}
+
 /* --------------------------
   HEADER & NAVIGATION
 --------------------------- */
@@ -183,8 +187,8 @@ a + p {
   ABOUT SECTION
 --------------------------- */
 
-.about-section {
-    margin: 0 auto 3em auto;
+.about-section, .push-top-double {
+    max-width: 95%;
 }
 
 #name {
@@ -583,9 +587,18 @@ footer > div {
         max-width: 100%;   
     }
     
-    #project-wrapper {
+    #preview-wrapper {
         max-width: 100%;
         margin: 0 auto;
+    }
+    
+    #project-wrapper {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    
+    .about-section, .push-top-double {
+        max-width: 95%;
     }
     
     .previews-home {
@@ -600,13 +613,18 @@ footer > div {
         max-width: 100%;   
     }
     
+    #preview-wrapper {
+        max-width: 85%;
+        margin: 0 auto;
+    }
+    
     #project-wrapper {
-        max-width: 100%;
+        max-width: 75%;
         margin: 0 auto;
     }
     
     .about-section, .push-top-double {
-        max-width: 100%;
+        max-width: 95%;
     }
     
     #breathing-space {
@@ -650,15 +668,21 @@ footer > div {
     }
     
     .main-wrapper {
-        max-width: 75%;   
+        max-width: 90%;   
+    }
+    
+    #preview-wrapper {
+        max-width: 95%;
+        margin: 0 auto;
     }
     
     #project-wrapper {
-        max-width: 85%;
+        max-width: 60%;
+        margin: 0 auto;
     }
     
     .about-section, .push-top-double {
-        max-width: 95%;
+        max-width: 90%;
         margin-left: auto;
         margin-right: auto;
     }

@@ -37,8 +37,8 @@ h1 {
 }
 
 p {
-    margin-left: 0.75rem;
-    margin-right: 0.75rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
 }
 
 /*
@@ -197,6 +197,11 @@ h6, .kilo {
 
 .pad-bottom-half {
   padding-bottom: 0.7500rem;
+}
+
+.align-center {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
