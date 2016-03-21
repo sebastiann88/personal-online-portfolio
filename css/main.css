@@ -282,6 +282,9 @@ figure {
     position: relative;
     overflow: visible;
     width: 100%;
+}
+
+.preview-wrapper > figure {
     border: #025E63 solid 1px;
 }
 
@@ -318,12 +321,16 @@ section figure {
     display: block;
     overflow: hidden;
     position: relative;
+    margin: 0em;
+    padding: 0em;
+    border: none;
 }
 
 section figcaption {
     display: inline-block;
+    margin: 0em;
     padding: 0em;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(2,94,99,0.9);
     color: white;
     position: absolute;
     width: 45%;
