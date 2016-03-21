@@ -187,6 +187,12 @@ a + p {
   ABOUT SECTION
 --------------------------- */
 
+#columns > p {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-indent: 1.5em;
+}
+
 .about-section, .push-top-double {
     margin: 1.5rem;
     max-width: 95%;
@@ -210,12 +216,6 @@ h3 + h5 {
     width: 12em;
     border-radius: 50%;
     margin: 3em auto 1.5em auto;
-}
-
-#columns > p {
-    margin-top: 0;
-    margin-bottom: 0;
-    text-indent: 1.5em;
 }
 
 .contact {
@@ -278,19 +278,26 @@ img {
 figure {
     display: inline-block;
     margin: 0;
+    padding: 0.25em;
     position: relative;
-    overflow: hidden;
-    
+    overflow: visible;
+    width: 100%;
+    border: #025E63 solid 1px;
 }
 
 a figcaption {
-    display: block;
-    padding: 0.95em;
-    background-color: rgba(0,0,0,0.5);
+    display: inline-block;
+    padding: 0.75em;
+    background-color: #025E63;
     color: white;
-    position: absolute;
+    position: relative;
     width: 100%;
     bottom: 0em;
+}
+    
+figure:hover a figcaption {
+    bottom: 0em;
+    background-color: #52bab3;
     transition: all 200ms ease-out;
 }
 
@@ -307,8 +314,28 @@ figcaption > h5 {
     margin: 0.75em 0;
 }
 
+section figure {
+    display: block;
+    overflow: hidden;
+    position: relative;
+}
+
+section figcaption {
+    display: inline-block;
+    padding: 0em;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    position: absolute;
+    width: 45%;
+    bottom: 0em;
+}
+
+section figure:hover figcaption {
+    bottom: 0em;
+}
+
 .previews {
-    height: 100%;
+    width: 100%;
 }
 
 /* --------------------------
@@ -409,26 +436,6 @@ figcaption > h5 {
 
 #tab {
     border-top-right-radius: 40px;
-}
-
-section figure {
-    display: block;
-    overflow: visible;
-    position: relative;
-}
-
-section figcaption {
-    display: block;
-    padding: 0em;
-    background-color: rgba(0,0,0,0.5);
-    color: white;
-    position: absolute;
-    width: 45%;
-    bottom: 0em;
-}
-
-section figure:hover figcaption {
-    bottom: 0em;
 }
 
 /* --------------------------
@@ -606,9 +613,18 @@ footer > div {
         max-width: 100%;
         margin: 0 auto;
     }
+    
 }
 
 @media (min-width: 1026px) {
+    
+    #columns {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 4em;
+
+    -moz-column-count: 2;
+    -moz-column-gap: 4em;
+	}
     
     .main-wrapper {
         max-width: 100%;   
@@ -631,22 +647,19 @@ footer > div {
     #breathing-space {
         display: block;   
     }
-    
-    .previews-home {
-        margin: 0 auto;
-    }
-    
-    a figcaption {
-        bottom: -7em;   
-    }
-    
-    figure:hover figcaption {
-        bottom: 0em;
-    }
 }
 
 
 @media (min-width: 1545px) {
+    
+    #columns {
+    -webkit-column-count: 2;
+    -webkit-column-gap: 5em;
+
+    -moz-column-count: 2;
+    -moz-column-gap: 5em;
+	}
+    
     .main-header {
         max-width: 100%;
         -webkit-flex-direction: row;align-items;
@@ -673,7 +686,7 @@ footer > div {
     }
     
     .preview-wrapper {
-        max-width: 100%;
+        max-width: 90%;
         margin: 0 auto;
     }
     
