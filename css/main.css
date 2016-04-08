@@ -33,12 +33,17 @@ html, body {
     margin: 0;
 }
 
+.main-wrapper {
+    min-height: 100%;
+    margin-bottom: -190px;
+}
+
 .main-wrapper:after {
     content: "";
     display: block;
 }
 
-.wrapper:after, footer {
+.main-wrapper:after, footer {
     height: 190px;
 }
 
@@ -63,11 +68,19 @@ a {
     min-height: 100%;
     margin-bottom: -190px;
     max-width: 100%;
-    margin: auto;
+}
+
+.preview-wrapper {
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 #project-wrapper {
     margin: 0 auto;
+}
+
+.previews {
+    width: 100%;
 }
 
 /* --------------------------
@@ -353,10 +366,6 @@ section figure:hover figcaption {
     bottom: 0em;
 }
 
-.previews {
-    width: 100%;
-}
-
 /* --------------------------
   CAROUSEL BANNERS
 --------------------------- */
@@ -498,7 +507,6 @@ img + p {
 
 footer {
     display: block;
-    margin: 0 auto;
     text-align: center;
     padding: 1.5em;
     background-color: #003436;
@@ -620,7 +628,7 @@ footer > div {
     }
     
     .preview-wrapper {
-        max-width: 100%;
+        max-width: 90%;
         margin: 0 auto;
     }
     
