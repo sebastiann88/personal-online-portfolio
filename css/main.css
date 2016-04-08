@@ -35,6 +35,8 @@ html, body {
 
 .main-wrapper {
     min-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: -190px;
 }
 
