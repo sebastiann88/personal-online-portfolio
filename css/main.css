@@ -102,6 +102,10 @@ li > a h6 {
     padding: 0;
 }
 
+.blog {
+    display: block;
+}
+
 nav {
     z-index: 5;
 }

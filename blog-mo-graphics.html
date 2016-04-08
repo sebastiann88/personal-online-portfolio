@@ -1,0 +1,17 @@
+---
+layout: blog
+title: Design Blog
+meta: This is my creative design blog about web development and motion graphics. 
+featured_image: /images/brand-logotype.jpg
+---
+
+<h1>Motion Graphics Articles</h1>
+
+<ul>
+    {% for article in site.categories.motion-graphics %}
+    <li>
+        <a href="">{{article.title}}</a>
+        <p>{{article.meta}}</p>
+    </li>
+    {% endfor %}
+</ul>
