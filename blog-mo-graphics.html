@@ -5,13 +5,14 @@ meta: This is my creative design blog about web development and motion graphics.
 featured_image: /images/brand-logotype.jpg
 ---
 
-<h1>Motion Graphics Articles</h1>
-
-<ul>
-    {% for article in site.categories.motion-graphics %}
-    <li>
-        <a href="">{{article.title}}</a>
-        <p>{{article.meta}}</p>
-    </li>
-    {% endfor %}
-</ul>
+<div class="preview-wrapper">
+    <h1>Motion Graphics Articles</h1>
+    <ul class="grid">
+        {% for article in site.categories.motion-graphics %}
+        <li class="unit unit-s-1 unit-m-1-2 unit-h-1-4">
+            <a href="">{{article.title}}</a>
+            <p>{{article.meta}}</p>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
