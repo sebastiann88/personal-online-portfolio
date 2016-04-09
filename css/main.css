@@ -214,15 +214,32 @@ a + p {
   ABOUT SECTION
 --------------------------- */
 
+.push-top-double > h1 {
+    margin: 1.5em auto 0.355em auto; 
+}
+
+.push-top-double .preview-wrapper > p:last-child {
+    margin-bottom: 4.5em;
+}
+
 #columns > p {
     margin-top: 0;
     margin-bottom: 0;
     text-indent: 1.5em;
 }
 
-.about-section, .push-top-double {
-    margin: 1.5rem;
+h1 #columns p:last-child {
+    margin-bottom: 4.5em;
+}
+
+.about-section {
+    margin: 1.5rem auto 4em auto;
     max-width: 95%;
+}
+
+.push-top-double > .preview-wrapper {
+    max-width: 90%;
+    margin-left: 5%;
 }
 
 #name {
@@ -510,7 +527,7 @@ img + p {
 footer {
     display: block;
     text-align: center;
-    padding: 1.5em;
+    padding-top: 1.75em;
     background-color: #003436;
 }
 
@@ -553,12 +570,20 @@ footer > div {
 
 @media (min-width: 769px) {
     
+    .push-top-double > h1 {
+        max-width: 80%;
+        margin: 1.75em auto 0.355em auto;    
+    }
+    
     #columns {
-        -webkit-column-count: 2;
+        -webkit-column-count: 1;
 		-webkit-column-gap: 3em;
 	
-		-moz-column-count: 2;
+		-moz-column-count: 1;
 		-moz-column-gap: 3em;
+        
+        max-width: 80%;
+        margin: 0 auto;
 	}
     
 	.main-header {
@@ -639,8 +664,13 @@ footer > div {
         margin: 0 auto;
     }
     
-    .about-section, .push-top-double {
+    .about-section {
         max-width: 95%;
+        margin: 1.5rem auto 5em auto;
+    }
+    
+    .push-top-double > .preview-wrapper {
+        max-width: 80%;
     }
     
     .previews-home {
@@ -652,12 +682,19 @@ footer > div {
 
 @media (min-width: 1026px) {
     
+    .push-top-double > h1 {
+        max-width: 75%;
+        margin: 2.5em auto 0.355em auto;    
+    }
+    
     #columns {
-    -webkit-column-count: 2;
+    -webkit-column-count: 1;
     -webkit-column-gap: 4em;
 
-    -moz-column-count: 2;
+    -moz-column-count: 1;
     -moz-column-gap: 4em;
+        
+    max-width: 75%;
 	}
     
     .main-wrapper {
@@ -674,8 +711,13 @@ footer > div {
         margin: 0 auto;
     }
     
-    .about-section, .push-top-double {
-        max-width: 95%;
+    .about-section {
+        max-width: 90%;
+        margin: 1.5rem auto 6em auto;
+    }
+    
+    .push-top-double > .preview-wrapper {
+        max-width: 75%;
     }
     
     #breathing-space {
@@ -686,12 +728,18 @@ footer > div {
 
 @media (min-width: 1545px) {
     
+    .push-top-double h1 {
+        max-width: 70%;  
+    }
+    
     #columns {
-    -webkit-column-count: 2;
+    -webkit-column-count: 1;
     -webkit-column-gap: 5em;
 
-    -moz-column-count: 2;
+    -moz-column-count: 1;
     -moz-column-gap: 5em;
+        
+    max-width: 70%;
 	}
     
     .main-header {
@@ -729,10 +777,12 @@ footer > div {
         margin: 0 auto;
     }
     
-    .about-section, .push-top-double {
-        max-width: 90%;
-        margin-left: auto;
-        margin-right: auto;
+    .about-section {
+        max-width: 80%;
+    }
+    
+    .push-top-double > .preview-wrapper {
+        max-width: 65%;
     }
     
     .previews-home {
