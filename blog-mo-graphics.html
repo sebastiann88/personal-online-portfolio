@@ -7,12 +7,14 @@ featured_image: /images/brand-logotype.jpg
 
 <div class="preview-wrapper">
     <h1>Motion Graphics Articles</h1>
-    <ul class="grid">
-        {% for article in site.categories.motion-graphics %}
-        <li class="unit unit-s-1 unit-m-1-2 unit-h-1-3">
-            <a href="#">{{article.title}}</a>
-            <p>{{article.meta}}</p>
+    <ul class="post grid">
+      {% for post in site.categories.motion-graphics %}
+        <li class="post__item">
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <p>{{post.meta}}</p>
+            <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+            <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
         </li>
-        {% endfor %}
+      {% endfor %}
     </ul>
 </div>
