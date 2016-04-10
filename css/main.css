@@ -418,72 +418,85 @@ section figure:hover figcaption {
     background-image:url("../images/banner-typography.jpg");
 }
 
+.illustration {
+    background-image:url("../images/illustration/senator-campaign-banner.jpg");
+}
+
 .interactive {
     background-image:url("../images/banner-interactive.jpg");
 }
 
-.bridgehead {
-    background-image:url("../images/typography/bridgehead-banner.jpg");
-}
-
-.go-with-the-flow {
-    background-image:url("../images/typography/go-with-the-flow-banner.jpg");
-}
-
-.collage {
-    background-image:url("../images/typography/collage-banner.jpg");
-}
-
-.obsessed-with-speed {
-    background-image:url("../images/typography/obsessed-with-speed-banner.jpg");
-}
-
-.the-tennis-serve {
-    background-image:url("../images/illustration/the-tennis-serve-banner.jpg");
-}
-
-.senator-campaign {
-    background-image:url("../images/illustration/senator-campaign-banner.jpg");
-}
-
-.company-poster {
-    background-image:url("../images/illustration/company-poster-banner.jpg");
-}
-
-.blues-brothers {
-    background-image:url("../images/illustration/blues-brothers-banner.jpg");
-}
-
-.ascent-app {
-    background-image:url("../images/interactive/ascent-app-banner.jpg");
-}
-
-.good-to-talk-app {
-    background-image:url("../images/interactive/good-to-talk-banner.jpg");
-}
-
-.palisar {
-    background-image:url("../images/interactive/palisar-banner.jpg");
-}
-
-.galactic-adventures {
-    background-image:url("../images/interactive/galactic-adventures-banner.jpg");
-}
-
-.demo-reel {
-    background-image:url("../images/motion/demo-reel-banner.jpg");
-}
-
-.blue-hen-farm {
-    background-image:url("../images/motion/blue-hen-farm-banner.jpg");
-}
-
-.building-a-portfolio {
+.motion {
     background-image:url("../images/motion/building-a-portfolio-banner.jpg");
 }
 
+.blog-banner {
+    background-color: #d9e4ea;
+    margin-bottom: 1.5em;
+}
+
+.bridgehead {
+    background-color: #d9e4ea;
+}
+
+.go-with-the-flow {
+    background-color: #d9e4ea;
+}
+
+.collage {
+    background-color: #d9e4ea;
+}
+
+.obsessed-with-speed {
+    background-color: #d9e4ea;
+}
+
+.the-tennis-serve {
+    background-color: #d9e4ea;
+}
+
+.senator-campaign {
+    background-color: #d9e4ea;
+}
+
+.company-poster {
+    background-color: #d9e4ea;
+}
+
+.blues-brothers {
+    background-color: #d9e4ea;
+}
+
+.ascent-app {
+    background-color: #d9e4ea;
+}
+
+.good-to-talk-app {
+    background-color: #d9e4ea;
+}
+
+.palisar {
+    background-color: #d9e4ea;
+}
+
+.galactic-adventures {
+    background-color: #d9e4ea;
+}
+
+.demo-reel {
+    background-color: #d9e4ea;
+}
+
+.blue-hen-farm {
+    background-color: #d9e4ea;
+}
+
+.building-a-portfolio {
+    background-color: #d9e4ea;
+}
+
 .tennis-infographic {
-    background-image:url("../images/motion/tennis-infographic-banner.jpg");
+    background-color: #d9e4ea;
 }
 
 #tab {
