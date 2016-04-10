@@ -773,11 +773,11 @@ footer > div {
 @media (min-width: 1545px) {
     
     body {
-        padding-top: 165px;   
+        padding-top: 135px;   
     }
     
     .main-header-container {
-        height: 180px;   
+        height: 150px;   
     }
     
     .push-top-double h1 {
