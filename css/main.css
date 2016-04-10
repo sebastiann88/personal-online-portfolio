@@ -33,6 +33,10 @@ html, body {
     margin: 0;
 }
 
+body {
+    padding-top: 170px;
+}
+
 .main-wrapper {
     min-height: 100%;
     margin-left: auto;
@@ -88,6 +92,16 @@ a {
 /* --------------------------
   HEADER & NAVIGATION
 --------------------------- */
+
+.main-header-container {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.4);
+    width: 100%;
+    height: 180px;
+    top: 0;
+    z-index: 1000;
+}
 
 .main-header {
     position: relative;
@@ -213,6 +227,10 @@ a + p {
 /* --------------------------
   ABOUT SECTION
 --------------------------- */
+
+#project-wrapper .push-top-double {
+    max-width: 95%;
+}
 
 .push-top-double > h1 {
     margin: 1.5em auto 0.355em auto; 
@@ -588,6 +606,14 @@ footer > div {
 
 @media (min-width: 769px) {
     
+    body {
+        padding-top: 215px;   
+    }
+    
+    .main-header-container {
+        height: 230px;   
+    }
+    
     .push-top-double > h1 {
         max-width: 80%;
         margin: 1.75em auto 0.355em auto;    
@@ -746,6 +772,14 @@ footer > div {
 
 @media (min-width: 1545px) {
     
+    body {
+        padding-top: 165px;   
+    }
+    
+    .main-header-container {
+        height: 180px;   
+    }
+    
     .push-top-double h1 {
         max-width: 70%;  
     }
@@ -761,7 +795,7 @@ footer > div {
 	}
     
     .main-header {
-        max-width: 100%;
+        width: 100%;
         -webkit-flex-direction: row;align-items;
         flex-direction: row;align-items:;
     }
