@@ -332,6 +332,11 @@ figure {
     border: #025E63 solid 1px;
 }
 
+#project-wrapper .unit img {
+    border: solid 1px #d9e4ea;
+    padding: 10px;
+}
+
 a figcaption {
     display: inline-block;
     padding: 0.75em;
