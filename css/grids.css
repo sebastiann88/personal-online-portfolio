@@ -112,4 +112,10 @@
         display: block;
     }
     
+    .unit-h-1-5 {
+        width: 20%;
+        visibility: visible;
+        display: block;
+    }
+    
 }

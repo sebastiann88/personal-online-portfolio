@@ -21,6 +21,37 @@ $( document ).ready(function() {
         type: 'image' // this is a default type
     });
             
+    //CIRQUE DU SOLEIL
+    
+    $('#open-cirque-du-soleil-popup').magnificPopup({
+        items: [
+           {
+            src: '../../images/typography/cirque-du-soleil-spread-1.jpg',
+            title: 'Cirque Du Soleil 1'
+          },
+            {
+            src: '../../images/typography/cirque-du-soleil-spread-2.jpg',
+            title: 'Cirque Du Soleil 2'
+          },
+            {
+            src: '../../images/typography/cirque-du-soleil-spread-3.jpg',
+            title: 'Cirque Du Soleil 3'
+          },
+            {
+            src: '../../images/typography/cirque-du-soleil-spread-4.jpg',
+            title: 'Cirque Du Soleil 4'
+          },
+            {
+            src: '../../images/typography/cirque-du-soleil-spread-5.jpg',
+            title: 'Cirque Du Soleil 5'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+            
     //GO WITH THE FLOW
             
     $('#open-go-with-the-flow-popup').magnificPopup({
