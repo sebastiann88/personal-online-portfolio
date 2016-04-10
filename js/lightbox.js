@@ -401,7 +401,14 @@ $( document ).ready(function() {
             src: 'https://vimeo.com/84920842',
             type: 'iframe' // this overrides default type
             },
+            {
+            src: '../../images/motion/tennis-infographic-1.jpg',
+            title: 'Tennis Infographic 1'
+          },
         ],
+        gallery: {
+          enabled: true
+        },
         type: 'image' // this is a default type
     });
      
