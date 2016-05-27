@@ -454,7 +454,7 @@ section figcaption {
     bottom: 0em;
 }
 
-img + figcaption {
+.preview-wrapper img + figcaption {
     max-width: 100%;
 	color: #fff;
 	position: absolute;
@@ -477,20 +477,21 @@ figure {
     overflow: hidden;
 }
 
-figure img {
+.preview-wrapper figure img {
     transition: transform .5s;   
 }
 
-figure:hover img {
+.preview-wrapper figure:hover img {
     overflow: hidden;
     transform: scale(1.2);
 }
 
-img + figcaption {
+.preview-wrapper img + figcaption {
 	opacity: 0;
 	transition: opacity .5s;
 }
-img + figcaption:hover {
+
+.preview-wrapper img + figcaption:hover {
 	opacity: 1;
 }
 
