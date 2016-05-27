@@ -11,7 +11,7 @@ featured_image: /images/brand-logotype.jpg
             <div class="photo">
                 <img class="profile-pic" src="{{site.baseurl}}/images/profile-photo.jpg" alt="Profile Picture">
                 <div class="profile-pic photo-overlay">
-                    <h5 id="name">Sebastian Nadeau</h5>
+                    <h5 id="sebastian">Sebastian Nadeau</h5>
                     <h6>Graphic Designer</h6>
                 </div>
             </div>
@@ -29,6 +29,34 @@ featured_image: /images/brand-logotype.jpg
                 <img class="e-mail-icon" src="{{site.baseurl}}/images/e-mail-icon.svg" alt="E-mail Icon">
                 <h5 id="h5">sebastian.nadeau66@gmail.com</h5>
             </div>
+            <form action="https://formspree.io/sebastian.nadeau66@gmail.com"
+      method="POST">
+                  <legend>Get In Touch</legend>
+                  
+                
+                
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name">
+                  
+                  <label for="mail">Email:</label>
+                  <input type="email" id="mail" name="_replyto">
+                    
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message"></textarea>
+                  
+                  
+                  <label for="job">Need Assistance In:</label>
+                  <select id="job" name="user_job">
+                      <option value="frontend_developer">Illustration</option>
+                      <option value="php_developer">Logo Design</option>
+                      <option value="python_developer">Motion Grahics</option>
+                      <option value="rails_developer">Print</option>
+                      <option value="web_designer">Web Development</option>
+                      <option value="wordpress_developer">Other</option>
+                  </select>
+                  
+                  <button id="submit" type="submit" value="Send">Send</button>
+            </form>
         </div>
     </div>
 </div>

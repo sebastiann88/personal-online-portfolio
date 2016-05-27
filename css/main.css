@@ -251,7 +251,7 @@ a + p {
     margin: 3em auto 1.5em auto;
 }
 
-#name {
+#sebastian {
     margin: 1.3em auto 0.355rem auto;
     padding-top: 4em;
     text-align: center;
@@ -259,7 +259,7 @@ a + p {
     font-weight: normal;
 }
 
-#name + h5 {
+#sebastian + h5 {
     margin: 0.355rem;
 }
 
@@ -630,6 +630,18 @@ div + button {
     box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     border: 0;
     color: #fff;
+}
+
+#submit {
+    display: block;
+    width: 15em;
+    margin: 1.5rem auto;
+    background-color: #52bab3;
+    background-image: linear-gradient(to bottom, #52bab3, #025E63);
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+    border: 0;
+    color: #fff;   
 }
 
 button > img {
