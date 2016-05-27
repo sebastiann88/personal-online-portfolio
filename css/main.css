@@ -471,6 +471,21 @@ img + figcaption {
 	background: rgba(82,186,179, .85);
 }
 
+figure {
+    position: relative;
+	line-height: 0;
+    overflow: hidden;
+}
+
+figure img {
+    transition: transform .5s;   
+}
+
+figure:hover img {
+    overflow: hidden;
+    transform: scale(1.2);
+}
+
 img + figcaption {
 	opacity: 0;
 	transition: opacity .5s;
