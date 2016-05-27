@@ -5,19 +5,30 @@ meta: This is my contact page, if you would like to get in contact with me you c
 featured_image: /images/brand-logotype.jpg
 ---
 
-{% include profile.html %}
 
-<div class="about-section">
-    <div class="preview-wrapper border-bottom">
-        <div class="border-bottom">
-            <h2 id="h2">About</h2>
-            <p>I’m a young adult at the age of 24 named Sebastian. I am someone who is constantly growing and expanding my knowledge base and am pursuing to take on new design endeavours. I am a recent graduate from the Graphic Design program at Algonquin College and during my time there and beyond I put care and attention into the projects I work on. I am at the stage where I am trying different possibilities that are out there and am figuring out what excites me the most. Simple illustration, motion graphics, and interactive UI have really grabbed me and now I am devoting more of my attention into working in those fields. I really enjoy the type of work that is out there and that is available for Graphic Designers to work on.</p>
+<div class="grid about-me clearfix">
+    <div class="unit unit-s-1 unit-m-1-3 unit-h-1-4 photo-container">
+            <div class="photo">
+                <img class="profile-pic" src="{{site.baseurl}}/images/profile-photo.jpg" alt="Profile Picture">
+                <div class="profile-pic photo-overlay">
+                    <h5 id="name">Sebastian Nadeau</h5>
+                    <h6>Graphic Designer</h6>
+                </div>
+            </div>
         </div>
-        <h2 id="h2">Contact</h2>
-            <p class="contact">If you have any inquiries about me and my work or have some work to be done and would like a helping hand, please don’t hesitate to e-mail me.</p>      
-        <div class="e-mail">
-            <img class="e-mail-icon" src="{{site.baseurl}}/images/e-mail-icon.svg" alt="E-mail Icon">
-            <h5 id="h5">sebastian.nadeau66@gmail.com</h5>
+    
+    <div class="about-section unit unit-s-1 unit-m-2-3 unit-h-3-4">
+        <div class="preview-wrapper border-bottom">
+            <div class="border-bottom">
+                <h2 id="h2">About</h2>
+                <p>I’m a young adult at the age of 24 named Sebastian. I am someone who is constantly growing and expanding my knowledge base and am pursuing to take on new design endeavours. I am a recent graduate from the Graphic Design program at Algonquin College and during my time there and beyond I put care and attention into the projects I work on. I am at the stage where I am trying different possibilities that are out there and am figuring out what excites me the most. Simple illustration, motion graphics, and interactive UI have really grabbed me and now I am devoting more of my attention into working in those fields. I really enjoy the type of work that is out there and that is available for Graphic Designers to work on.</p>
+            </div>
+            <h2 id="h2">Contact</h2>
+                <p class="contact">If you have any inquiries about me and my work or have some work to be done and would like a helping hand, please don’t hesitate to e-mail me.</p>      
+            <div class="e-mail">
+                <img class="e-mail-icon" src="{{site.baseurl}}/images/e-mail-icon.svg" alt="E-mail Icon">
+                <h5 id="h5">sebastian.nadeau66@gmail.com</h5>
+            </div>
         </div>
     </div>
 </div>
