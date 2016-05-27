@@ -411,12 +411,16 @@ a figcaption {
     width: 100%;
     bottom: 0em;
 }
-    
+
+/*
+
 figure:hover a figcaption {
     bottom: 0em;
     background-color: #52bab3;
     transition: all 200ms ease-out;
 }
+
+*/
 
 figcaption > h2 {
     font-size: 1.2656rem;
@@ -449,6 +453,32 @@ section figcaption {
     position: absolute;
     width: 45%;
     bottom: 0em;
+}
+
+img + figcaption {
+    max-width: 100%;
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: rgba(82,186,179, .85);
+    border: none;
+}
+
+img + figcaption {
+	opacity: 0;
+	transition: opacity .5s;
+}
+img + figcaption:hover {
+	opacity: 1;
 }
 
 section figure:hover figcaption {
@@ -658,7 +688,7 @@ footer > div {
 @media (min-width: 769px) {
     
     body {
-        padding-top: 175px;   
+        padding-top: 170px;   
     }
     
     .main-logo {
@@ -832,7 +862,7 @@ footer > div {
 @media (min-width: 1545px) {
     
     body {
-        padding-top: 115px;   
+        padding-top: 110px;   
     }
     
     .main-header-container {
