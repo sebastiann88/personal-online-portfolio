@@ -461,10 +461,11 @@ section figure:hover figcaption {
 
 .banner-carousel {
     width: 100%;
-    height: 480px; /* 480px is 30em which fits to the baseline grid */
+    height: 20em;
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
+    margin-top: 0.75rem;
 }
 
 /* --------------------------
@@ -659,6 +660,10 @@ footer > div {
     
     body {
         padding-top: 215px;   
+    }
+    
+    .banner-carousel {
+        height: 25em;
     }
     
     .main-header-container {

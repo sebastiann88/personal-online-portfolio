@@ -96,6 +96,12 @@
         display: none;
     }
     
+    .unit-h-3-4 {
+        width: 75%;
+        visibility: visible;
+        display: block;
+    }
+    
     .unit-h-1-2 {
         width: 50%;
         visibility: visible;
