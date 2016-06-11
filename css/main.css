@@ -623,7 +623,8 @@ div + button {
 
 #submit {
     display: block;
-    width: 15em;
+    width: 11em;
+    height: 2em;
     margin: 1.5rem auto;
     background-color: #52bab3;
     background-image: linear-gradient(to bottom, #52bab3, #025E63);
@@ -631,6 +632,12 @@ div + button {
     box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
     border: 0;
     color: #fff;   
+}
+
+#submit:hover {
+    color: #025E63;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #fff, #52bab3);
 }
 
 button > img {
