@@ -387,19 +387,17 @@ img {
 figure {
     display: inline-block;
     margin: 0;
-    padding: 0.25em;
     position: relative;
     overflow: visible;
     width: 100%;
 }
 
 .preview-wrapper > figure {
-    border: #52bab3 solid 1px;
+    border: #d9e4ea solid 1px;
 }
 
-#project-wrapper .unit img {
-    border: solid 1px #d9e4ea;
-    padding: 10px;
+#project-wrapper .unit {
+    border: solid 1px #d9e4ea;   
 }
 
 a figcaption {
@@ -411,16 +409,6 @@ a figcaption {
     width: 100%;
     bottom: 0em;
 }
-
-/*
-
-figure:hover a figcaption {
-    bottom: 0em;
-    background-color: #52bab3;
-    transition: all 200ms ease-out;
-}
-
-*/
 
 figcaption > h2 {
     font-size: 1.2656rem;
@@ -711,11 +699,7 @@ footer > div {
   MEDIA QUERIES
 --------------------------- */
 
-@media (min-width: 769px) {
-    
-    body {
-        padding-top: 170px;   
-    }
+@media (min-width: 30.063em) {
     
     .main-logo {
         margin: 0.25em auto;   
@@ -723,10 +707,6 @@ footer > div {
     
     .banner-carousel {
         height: 25em;
-    }
-    
-    .main-header-container {
-        height: 175px;   
     }
     
     .push-top-double > h1 {
@@ -745,68 +725,11 @@ footer > div {
         margin: 0 auto;
 	}
     
-	.main-header {
-        max-width: 72%;
+    .main-header {
         margin: 0 auto;
         padding: 1.5em 0 0.75em;
         -webkit-justify-content: space-between;
-		justify-content: space-between;
-	}
-    
-	.nav {
-        display:-webkit-flex;
-        display: flex;
-		flex-direction: row;
-        -webkit-justify-content: space-between;
-		justify-content: space-between;
-        align-self:center;
-        position: relative;
-        background-color: transparent;
-        top: 0; 
-	}
-    
-    .blog-nav {
-        display:-webkit-flex;
-        display: flex;
-    }
-    
-	.nav a {
-		border-bottom-color: transparent;
-        color: #025E63;
-	}
-    
-    nav a: hover {
-        color: #0b0b0b;    
-    }
-    
-    footer > div {
-        max-width: 50%
-    }
-
-    .nav-check:checked ~ .nav {
-        display:-webkit-flex;
-        display: flex;
-    }
-    
-    .nav-label {
-        display: none;
-        cursor: default;
-        width: 60px;
-        position: absolute;
-    }
-    
-    .nav-open,
-    .nav-close {
-        display: inline-block;
-        width: 100%;
-    }
-    
-    .nav-check:checked ~ .nav-label .nav-open {
-        display: inline-block;
-    }
-    
-    .nav-check:checked ~ .nav-label .nav-close {
-        display: inline-block;
+		justify-content: space-between;   
     }
     
     .main-wrapper {
@@ -837,9 +760,69 @@ footer > div {
         margin: 0 auto;
     }
     
+    footer > div {
+        max-width: 50%
+    }
+    
 }
 
-@media (min-width: 1026px) {
+@media (min-width: 40.063em) {
+    
+    body {
+        padding-top: 170px;   
+    }
+    
+    .nav {
+        display:-webkit-flex;
+        display: flex;
+		flex-direction: row;
+        -webkit-justify-content: space-between;
+		justify-content: space-between;
+        align-self:center;
+        position: relative;
+        background-color: transparent;
+        top: 0; 
+	}
+    
+    .blog-nav {
+        display:-webkit-flex;
+        display: flex;
+    }
+    
+	.nav a {
+		border-bottom-color: transparent;
+        color: #025E63;
+	}
+    
+    nav a: hover {
+        color: #0b0b0b;    
+    }
+
+    .nav-check:checked ~ .nav {
+        display:-webkit-flex;
+        display: flex;
+    }
+    
+    .nav-label {
+        display: none;
+        cursor: default;
+        width: 60px;
+        position: absolute;
+    }
+    
+    .nav-open,
+    .nav-close {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .nav-check:checked ~ .nav-label .nav-open {
+        display: inline-block;
+    }
+    
+    .nav-check:checked ~ .nav-label .nav-close {
+        display: inline-block;
+    }
     
     .push-top-double > h1 {
         max-width: 75%;
@@ -855,6 +838,14 @@ footer > div {
         
     max-width: 75%;
 	}
+    
+    .main-header {
+        max-width: 72%;
+	}
+    
+    .main-header-container {
+        height: 175px;   
+    }
     
     .main-wrapper {
         max-width: 100%;   
@@ -885,7 +876,7 @@ footer > div {
 }
 
 
-@media (min-width: 1545px) {
+@media (min-width: 80.063em) {
     
     body {
         padding-top: 110px;   
