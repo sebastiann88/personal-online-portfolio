@@ -29,28 +29,24 @@ html {
 --------------------------- */
 
 html, body {
-    height: 100%;
     margin: 0;
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     padding-top: 145px;
 }
 
-.main-wrapper {
+.main-wrapper,
+.main-header {
+    display: flex;
+    flex-direction: column;
     min-height: 100%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: -190px;
-}
-
-.main-wrapper:after {
-    content: "";
-    display: block;
-}
-
-.main-wrapper:after, footer {
-    height: 190px;
+    flex: 1;
 }
 
 /* --------------------------
@@ -72,12 +68,11 @@ a {
 
 .main-wrapper {
     min-height: 100%;
-    margin-bottom: -190px;
     max-width: 100%;
 }
 
 .preview-wrapper {
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -240,6 +235,10 @@ a + p {
     margin-bottom: 4.5em;
 }
 
+#portfolio-intro {
+    margin: 0.75em;
+}
+
 .about-me {
     margin: 1.5em auto 3em auto;
     max-width: 90%;
@@ -264,13 +263,15 @@ a + p {
 }
 
 .photo-container {
-	text-align: center;
+	margin: 0 auto;
 }
 
-.photo {
+.profile-photo {
 	position: relative;
 	line-height: 0;
 	overflow: hidden;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .photo-container img {
@@ -393,11 +394,11 @@ figure {
 }
 
 .preview-wrapper > figure {
-    border: #d9e4ea solid 1px;
+    border: solid 5px #d9e4ea;
 }
 
 #project-wrapper .unit {
-    border: solid 1px #d9e4ea;   
+    border: solid 5px #d9e4ea;   
 }
 
 a figcaption {
@@ -493,7 +494,7 @@ section figure:hover figcaption {
 
 .banner-carousel {
     width: 100%;
-    height: 20em;
+    height: 15em;
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
@@ -505,7 +506,7 @@ section figure:hover figcaption {
 
 .banner {
     width: 100%;
-    height: 20em;
+    height: 15em;
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
@@ -658,7 +659,7 @@ img + p {
 footer {
     display: block;
     text-align: center;
-    padding-top: 1.75em;
+    padding: 1.75em;
     background-color: #003436;
 }
 
@@ -670,7 +671,7 @@ footer > div {
 .social-media-icons {
     display: inline-block;
     border-radius: 50%;
-    width: 75px;
+    width: 4em;
     margin: 0;
     padding: 0 0.5em;
 }
@@ -706,7 +707,11 @@ footer > div {
     }
     
     .banner-carousel {
-        height: 25em;
+        height: 16em;
+    }
+    
+    .profile-pic {
+        width: 18em;   
     }
     
     .push-top-double > h1 {
@@ -737,7 +742,7 @@ footer > div {
     }
     
     .preview-wrapper {
-        max-width: 90%;
+        max-width: 100%;
         margin: 0 auto;
     }
     
@@ -770,6 +775,14 @@ footer > div {
     
     body {
         padding-top: 170px;   
+    }
+    
+    .banner-carousel {
+        height: 17em;
+    }
+    
+    #portfolio-intro {
+        margin: 1.5em;
     }
     
     .nav {
@@ -852,7 +865,7 @@ footer > div {
     }
     
     .preview-wrapper {
-        max-width: 85%;
+        max-width: 100%;
         margin: 0 auto;
     }
     
@@ -880,6 +893,14 @@ footer > div {
     
     body {
         padding-top: 110px;   
+    }
+    
+    .banner-carousel {
+        height: 20em;
+    }
+    
+    #portfolio-intro {
+        margin: 1.5em 1.5em 1.5em 0.35em;
     }
     
     .main-header-container {
