@@ -1,220 +1,7 @@
 $( document ).ready(function() {  
     
-// TYPOGRAPHY
-    
-    //BRIDGEHEAD
-    
-    $('#open-bridgehead-popup').magnificPopup({
-        items: [
-          {
-            src: '../../images/print/bridgehead-2.jpg',
-            title: 'Bridgehead 1'
-          },
-                {
-            src: '../../images/print/bridgehead-3.jpg',
-            title: 'Bridgehead 2'
-          },
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-            
-    //CIRQUE DU SOLEIL
-    
-    $('#open-cirque-du-soleil-popup').magnificPopup({
-        items: [
-           {
-            src: '../../images/print/cirque-du-soleil-spread-1.jpg',
-            title: 'Cirque Du Soleil 1'
-          },
-            {
-            src: '../../images/print/cirque-du-soleil-spread-2.jpg',
-            title: 'Cirque Du Soleil 2'
-          },
-            {
-            src: '../../images/print/cirque-du-soleil-spread-3.jpg',
-            title: 'Cirque Du Soleil 3'
-          },
-            {
-            src: '../../images/print/cirque-du-soleil-spread-4.jpg',
-            title: 'Cirque Du Soleil 4'
-          },
-            {
-            src: '../../images/print/cirque-du-soleil-spread-5.jpg',
-            title: 'Cirque Du Soleil 5'
-          },
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-            
-    //GO WITH THE FLOW
-            
-    $('#open-go-with-the-flow-popup').magnificPopup({
-        items: [
-          {
-            src: '../../images/print/go-with-the-flow-1.jpg',
-            title: 'Go with the Flow 1'
-          },
-                {
-            src: '../../images/print/go-with-the-flow-2.jpg',
-            title: 'Go with the Flow 2'
-          },
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-    
-    //COLLAGE
-            
-    $('#open-collage-popup').magnificPopup({
-        items: [
-          {
-            src: '../../images/print/collage-2.jpg',
-            title: 'Collage 1'
-          },
-                {
-            src: '../../images/print/collage-3.jpg',
-            title: 'Collage 2'
-          },
-                {
-            src: '../../images/print/collage-1.jpg',
-            title: 'Collage 3'
-          },
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-            
-    //OBSESSED WITH SPEED
-            
-    $('#open-obsessed-with-speed-popup').magnificPopup({
-        items: [
-            {
-            src: '../../images/print/obsessed-with-speed-1.jpg',
-            title: 'Obsessed with Speed 1'
-          },
-            {
-            src: '../../images/print/obsessed-with-speed-2.jpg',
-            title: 'Obsessed with Speed 2'
-          },
-            {
-            src: '../../images/print/obsessed-with-speed-3.jpg',
-            title: 'Obsessed with Speed 1'
-          },
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
 
-// ILLUSTRATION
-    
-    //TENNIS SERVE
-    
-    $('#open-tennis-serve-popup').magnificPopup({
-    items: [
-          {
-            src: '../../images/illustration/the-tennis-serve-1.jpg',
-            title: 'Tennis Serve 1'
-          },
-                {
-            src: '../../images/illustration/the-tennis-serve-4.jpg',
-            title: 'Tennis Serve 2'
-          },
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-    
-    //SENATOR CAMPAIGN
-    
-    $('#open-senator-campaign-popup').magnificPopup({
-    items: [
-          {
-            src: '../../images/illustration/senator-campaign-1.jpg',
-            title: 'Senator Campagn 1'
-          },
-                {
-            src: '../../images/illustration/senator-campaign-2.jpg',
-            title: 'Senator Campagn 2'
-          },
-                {
-            src: '../../images/illustration/senator-campaign-3.jpg',
-            title: 'Senator Campagn 3'
-          },
-                {
-            src: '../../images/illustration/senator-campaign-4.jpg',
-            title: 'Senator Campagn 4'
-          },
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-        
-    //COMPANY POSTER
-        
-    $('#open-company-poster-popup').magnificPopup({
-    items: [
-          {
-            src: '../../images/illustration/company-poster-1.jpg',
-            title: 'Company Poster 1'
-          },
-                {
-            src: '../../images/illustration/company-poster-4.jpg',
-            title: 'Company Poster 2'
-          },
-
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-    
-    //BLUES BROTHERS
-    
-    $('#open-blues-brothers-popup').magnificPopup({
-    items: [
-          {
-            src: '../../images/illustration/blues-brothers-4.jpg',
-            title: 'Blues Brothers 1'
-          },
-            {
-            src: '../../images/illustration/blues-brothers-3.jpg',
-            title: 'Blues Brothers 2'
-          },
-            {
-            src: '../../images/illustration/blues-brothers-1.jpg',
-            title: 'Blues Brothers 3'
-          },
-            {
-            src: '../../images/illustration/blues-brothers-2.jpg',
-            title: 'Blues Brothers 4'
-          },
-
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-        
-
-// INTERACTIVE
+// WEB DESIGN
     
     //ASCENT APP
     
@@ -354,8 +141,244 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+    
+    
+// ILLUSTRATION
+    
+    //TENNIS SERVE
+    
+    $('#open-tennis-serve-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/illustration/the-tennis-serve-1.jpg',
+            title: 'Tennis Serve 1'
+          },
+                {
+            src: '../../images/illustration/the-tennis-serve-4.jpg',
+            title: 'Tennis Serve 2'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
+    //SENATOR CAMPAIGN
+    
+    $('#open-senator-campaign-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/illustration/senator-campaign-1.jpg',
+            title: 'Senator Campagn 1'
+          },
+                {
+            src: '../../images/illustration/senator-campaign-2.jpg',
+            title: 'Senator Campagn 2'
+          },
+                {
+            src: '../../images/illustration/senator-campaign-3.jpg',
+            title: 'Senator Campagn 3'
+          },
+                {
+            src: '../../images/illustration/senator-campaign-4.jpg',
+            title: 'Senator Campagn 4'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+        
+    //COMPANY POSTER
+        
+    $('#open-company-poster-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/illustration/company-poster-1.jpg',
+            title: 'Company Poster 1'
+          },
+                {
+            src: '../../images/illustration/company-poster-4.jpg',
+            title: 'Company Poster 2'
+          },
 
-// MOTION
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
+    //BLUES BROTHERS
+    
+    $('#open-blues-brothers-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/illustration/blues-brothers-4.jpg',
+            title: 'Blues Brothers 1'
+          },
+            {
+            src: '../../images/illustration/blues-brothers-3.jpg',
+            title: 'Blues Brothers 2'
+          },
+            {
+            src: '../../images/illustration/blues-brothers-1.jpg',
+            title: 'Blues Brothers 3'
+          },
+            {
+            src: '../../images/illustration/blues-brothers-2.jpg',
+            title: 'Blues Brothers 4'
+          },
+
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
+// IDENTITY
+    
+    //PEDAL POWER
+    
+    $('#open-pedal-power-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/identity/pedal-power-1.gif',
+            title: 'Pedal Power Logo 1'
+          },
+                {
+            src: '../../images/identity/pedal-power-2.gif',
+            title: 'Pedal Power Logo 2'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
+// PRINT
+    
+    //BRIDGEHEAD
+    
+    $('#open-bridgehead-popup').magnificPopup({
+        items: [
+          {
+            src: '../../images/print/bridgehead-2.jpg',
+            title: 'Bridgehead 1'
+          },
+                {
+            src: '../../images/print/bridgehead-3.jpg',
+            title: 'Bridgehead 2'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+            
+    //CIRQUE DU SOLEIL
+    
+    $('#open-cirque-du-soleil-popup').magnificPopup({
+        items: [
+           {
+            src: '../../images/print/cirque-du-soleil-spread-1.jpg',
+            title: 'Cirque Du Soleil 1'
+          },
+            {
+            src: '../../images/print/cirque-du-soleil-spread-2.jpg',
+            title: 'Cirque Du Soleil 2'
+          },
+            {
+            src: '../../images/print/cirque-du-soleil-spread-3.jpg',
+            title: 'Cirque Du Soleil 3'
+          },
+            {
+            src: '../../images/print/cirque-du-soleil-spread-4.jpg',
+            title: 'Cirque Du Soleil 4'
+          },
+            {
+            src: '../../images/print/cirque-du-soleil-spread-5.jpg',
+            title: 'Cirque Du Soleil 5'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+            
+    //GO WITH THE FLOW
+            
+    $('#open-go-with-the-flow-popup').magnificPopup({
+        items: [
+          {
+            src: '../../images/print/go-with-the-flow-1.jpg',
+            title: 'Go with the Flow 1'
+          },
+                {
+            src: '../../images/print/go-with-the-flow-2.jpg',
+            title: 'Go with the Flow 2'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
+    //COLLAGE
+            
+    $('#open-collage-popup').magnificPopup({
+        items: [
+          {
+            src: '../../images/print/collage-2.jpg',
+            title: 'Collage 1'
+          },
+                {
+            src: '../../images/print/collage-3.jpg',
+            title: 'Collage 2'
+          },
+                {
+            src: '../../images/print/collage-1.jpg',
+            title: 'Collage 3'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+            
+    //OBSESSED WITH SPEED
+            
+    $('#open-obsessed-with-speed-popup').magnificPopup({
+        items: [
+            {
+            src: '../../images/print/obsessed-with-speed-1.jpg',
+            title: 'Obsessed with Speed 1'
+          },
+            {
+            src: '../../images/print/obsessed-with-speed-2.jpg',
+            title: 'Obsessed with Speed 2'
+          },
+            {
+            src: '../../images/print/obsessed-with-speed-3.jpg',
+            title: 'Obsessed with Speed 1'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+        
+
+// MOTION DESIGN
     
     //DEMO REEL
     
