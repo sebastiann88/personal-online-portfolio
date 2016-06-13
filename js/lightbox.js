@@ -7,11 +7,11 @@ $( document ).ready(function() {
     $('#open-bridgehead-popup').magnificPopup({
         items: [
           {
-            src: '../../images/typography/bridgehead-2.jpg',
+            src: '../../images/print/bridgehead-2.jpg',
             title: 'Bridgehead 1'
           },
                 {
-            src: '../../images/typography/bridgehead-3.jpg',
+            src: '../../images/print/bridgehead-3.jpg',
             title: 'Bridgehead 2'
           },
         ],
@@ -26,23 +26,23 @@ $( document ).ready(function() {
     $('#open-cirque-du-soleil-popup').magnificPopup({
         items: [
            {
-            src: '../../images/typography/cirque-du-soleil-spread-1.jpg',
+            src: '../../images/print/cirque-du-soleil-spread-1.jpg',
             title: 'Cirque Du Soleil 1'
           },
             {
-            src: '../../images/typography/cirque-du-soleil-spread-2.jpg',
+            src: '../../images/print/cirque-du-soleil-spread-2.jpg',
             title: 'Cirque Du Soleil 2'
           },
             {
-            src: '../../images/typography/cirque-du-soleil-spread-3.jpg',
+            src: '../../images/print/cirque-du-soleil-spread-3.jpg',
             title: 'Cirque Du Soleil 3'
           },
             {
-            src: '../../images/typography/cirque-du-soleil-spread-4.jpg',
+            src: '../../images/print/cirque-du-soleil-spread-4.jpg',
             title: 'Cirque Du Soleil 4'
           },
             {
-            src: '../../images/typography/cirque-du-soleil-spread-5.jpg',
+            src: '../../images/print/cirque-du-soleil-spread-5.jpg',
             title: 'Cirque Du Soleil 5'
           },
         ],
@@ -57,11 +57,11 @@ $( document ).ready(function() {
     $('#open-go-with-the-flow-popup').magnificPopup({
         items: [
           {
-            src: '../../images/typography/go-with-the-flow-1.jpg',
+            src: '../../images/print/go-with-the-flow-1.jpg',
             title: 'Go with the Flow 1'
           },
                 {
-            src: '../../images/typography/go-with-the-flow-2.jpg',
+            src: '../../images/print/go-with-the-flow-2.jpg',
             title: 'Go with the Flow 2'
           },
         ],
@@ -76,15 +76,15 @@ $( document ).ready(function() {
     $('#open-collage-popup').magnificPopup({
         items: [
           {
-            src: '../../images/typography/collage-2.jpg',
+            src: '../../images/print/collage-2.jpg',
             title: 'Collage 1'
           },
                 {
-            src: '../../images/typography/collage-3.jpg',
+            src: '../../images/print/collage-3.jpg',
             title: 'Collage 2'
           },
                 {
-            src: '../../images/typography/collage-1.jpg',
+            src: '../../images/print/collage-1.jpg',
             title: 'Collage 3'
           },
         ],
@@ -99,15 +99,15 @@ $( document ).ready(function() {
     $('#open-obsessed-with-speed-popup').magnificPopup({
         items: [
             {
-            src: '../../images/typography/obsessed-with-speed-1.jpg',
+            src: '../../images/print/obsessed-with-speed-1.jpg',
             title: 'Obsessed with Speed 1'
           },
             {
-            src: '../../images/typography/obsessed-with-speed-2.jpg',
+            src: '../../images/print/obsessed-with-speed-2.jpg',
             title: 'Obsessed with Speed 2'
           },
             {
-            src: '../../images/typography/obsessed-with-speed-3.jpg',
+            src: '../../images/print/obsessed-with-speed-3.jpg',
             title: 'Obsessed with Speed 1'
           },
         ],
@@ -221,35 +221,35 @@ $( document ).ready(function() {
     $('#open-ascent-app-popup').magnificPopup({
     items: [
           {
-            src: '../../images/interactive/ascent-app-1.jpg',
+            src: '../../images/web-design/ascent-app-1.jpg',
             title: 'Ascent App 1'
           },
             {
-            src: '../../images/interactive/ascent-app-2.jpg',
+            src: '../../images/web-design/ascent-app-2.jpg',
             title: 'Ascent App 2'
           },
             {
-            src: '../../images/interactive/ascent-app-3.jpg',
+            src: '../../images/web-design/ascent-app-3.jpg',
             title: 'Ascent App 3'
           },
             {
-            src: '../../images/interactive/ascent-app-4.jpg',
+            src: '../../images/web-design/ascent-app-4.jpg',
             title: 'Ascent App 4'
           },
             {
-            src: '../../images/interactive/ascent-app-5.jpg',
+            src: '../../images/web-design/ascent-app-5.jpg',
             title: 'Ascent App 5'
           },
             {
-            src: '../../images/interactive/ascent-app-6.jpg',
+            src: '../../images/web-design/ascent-app-6.jpg',
             title: 'Ascent App 6'
           },
             {
-            src: '../../images/interactive/ascent-app-7.jpg',
+            src: '../../images/web-design/ascent-app-7.jpg',
             title: 'Ascent App 7'
           },
             {
-            src: '../../images/interactive/ascent-app-8.jpg',
+            src: '../../images/web-design/ascent-app-8.jpg',
             title: 'Ascent App 8'
           },
 
@@ -265,31 +265,31 @@ $( document ).ready(function() {
     $('#open-good-to-talk-app-popup').magnificPopup({
     items: [
           {
-            src: '../../images/interactive/good-to-talk-1.jpg',
+            src: '../../images/web-design/good-to-talk-1.jpg',
             title: 'Good to Talk 1'
           },
             {
-            src: '../../images/interactive/good-to-talk-2.jpg',
+            src: '../../images/web-design/good-to-talk-2.jpg',
             title: 'Good to Talk 2'
           },
             {
-            src: '../../images/interactive/good-to-talk-3.jpg',
+            src: '../../images/web-design/good-to-talk-3.jpg',
             title: 'Good to Talk 3'
           },
             {
-            src: '../../images/interactive/good-to-talk-4.jpg',
+            src: '../../images/web-design/good-to-talk-4.jpg',
             title: 'Good to Talk 4'
           },
             {
-            src: '../../images/interactive/good-to-talk-5.jpg',
+            src: '../../images/web-design/good-to-talk-5.jpg',
             title: 'Good to Talk 5'
           },
             {
-            src: '../../images/interactive/good-to-talk-6.jpg',
+            src: '../../images/web-design/good-to-talk-6.jpg',
             title: 'Good to Talk 6'
           },
             {
-            src: '../../images/interactive/good-to-talk-7.jpg',
+            src: '../../images/web-design/good-to-talk-7.jpg',
             title: 'Good to Talk 7'
           },
 
@@ -305,11 +305,11 @@ $( document ).ready(function() {
     $('#open-palisar-popup').magnificPopup({
     items: [
           {
-            src: '../../images/interactive/palisar-1.jpg',
+            src: '../../images/web-design/palisar-1.jpg',
             title: 'Palisar 1'
           },
             {
-            src: '../../images/interactive/palisar-2.jpg',
+            src: '../../images/web-design/palisar-2.jpg',
             title: 'Palisar 2'
           },
         ],
@@ -324,27 +324,27 @@ $( document ).ready(function() {
     $('#open-galactic-adventures-popup').magnificPopup({
     items: [
           {
-            src: '../../images/interactive/galactic-adventures-1.jpg',
+            src: '../../images/web-design/galactic-adventures-1.jpg',
             title: 'Galactic Adventures 1'
           },
             {
-            src: '../../images/interactive/galactic-adventures-2.jpg',
+            src: '../../images/web-design/galactic-adventures-2.jpg',
             title: 'Galactic Adventures 2'
           },
             {
-            src: '../../images/interactive/galactic-adventures-3.jpg',
+            src: '../../images/web-design/galactic-adventures-3.jpg',
             title: 'Galactic Adventures 3'
           },
             {
-            src: '../../images/interactive/galactic-adventures-4.jpg',
+            src: '../../images/web-design/galactic-adventures-4.jpg',
             title: 'Galactic Adventures 4'
           },
             {
-            src: '../../images/interactive/galactic-adventures-5.jpg',
+            src: '../../images/web-design/galactic-adventures-5.jpg',
             title: 'Galactic Adventures 5'
           },
             {
-            src: '../../images/interactive/galactic-adventures-6.jpg',
+            src: '../../images/web-design/galactic-adventures-6.jpg',
             title: 'Galactic Adventures 6'
           },
 

@@ -393,12 +393,16 @@ figure {
     width: 100%;
 }
 
+.previews-home > figure {
+    border: solid 2px #d9e4ea;
+}
+
 .preview-wrapper > figure {
-    border: solid 5px #d9e4ea;
+    border: solid 2px #d9e4ea;
 }
 
 #project-wrapper .unit {
-    border: solid 5px #d9e4ea;   
+    border: solid 2px #d9e4ea;   
 }
 
 a figcaption {
@@ -525,7 +529,7 @@ section figure:hover figcaption {
 }
 
 .motion {
-    background-image:url("../images/motion/building-a-portfolio-banner.jpg");
+    background-image:url("../images/motion-design/building-a-portfolio-banner.jpg");
 }
 
 .blog-banner {
@@ -860,7 +864,7 @@ footer > div {
 	}
     
     .main-header {
-        max-width: 72%;
+        max-width: 80%;
 	}
     
     .main-header-container {
