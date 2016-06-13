@@ -259,6 +259,21 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+        
+    //PERSONALITY GENIE
+    
+    $('#open-personality-genie-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/identity/personality-genie-1.gif',
+            title: 'Personality Genie Logo 1'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
     
 // PRINT
     
