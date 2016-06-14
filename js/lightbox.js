@@ -22,6 +22,46 @@ $( document ).ready(function() {
         type: 'image' // this is a default type
     });
         
+    //PALISAR
+    
+    $('#open-great-lakes-web-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/web-design/great-lakes-web-1.jpg',
+            title: 'Alliance for the Great Lakes 1'
+          },
+            {
+            src: '../../images/web-design/great-lakes-web-2.jpg',
+            title: 'Alliance for the Great Lakes 2'
+          },
+            {
+            src: '../../images/web-design/great-lakes-web-3.jpg',
+            title: 'Alliance for the Great Lakes 3'
+          },
+            {
+            src: '../../images/web-design/great-lakes-web-4.jpg',
+            title: 'Alliance for the Great Lakes 4'
+          },
+            {
+            src: '../../images/web-design/great-lakes-web-5.jpg',
+            title: 'Alliance for the Great Lakes 5'
+          },
+            {
+            src: '../../images/web-design/great-lakes-web-6.jpg',
+            title: 'Alliance for the Great Lakes 6'
+          },
+            {
+            src: '../../images/web-design/great-lakes-web-7.jpg',
+            title: 'Alliance for the Great Lakes 7'
+          },
+        
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+        
     //NOBILE RACKETS
     
     $('#open-nobile-rackets-popup').magnificPopup({

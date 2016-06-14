@@ -206,6 +206,10 @@ h6, .kilo {
     padding-top: 0.035em;
 }
 
+.margin-top-double {
+    margin-top: 3rem;
+}
+
 .align-center {
     margin-left: auto;
     margin-right: auto;
