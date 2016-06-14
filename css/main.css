@@ -17,6 +17,15 @@ html {
 }
 
 /* --------------------------
+  Brand Colours
+---------------------------
+Light Turquoise: #52bab3;
+Dark Turquoise: rgba(16,122,128,0.8);
+Light Green: rgba(2,94,99,0.9);
+Dark Green: #003436;
+Light Gray: #d9e4ea;
+
+ --------------------------
   Base Styles
 --------------------------- */
 
@@ -515,7 +524,7 @@ section figure:hover figcaption {
     background-position: center;
     background-size: cover;
     background-repeat:no-repeat;
-    background-color: #d9e4ea;
+    background-image: radial-gradient(circle at bottom left, rgba(16,122,128,0.8), #FFF);
 }
 
 .typo {
@@ -647,7 +656,7 @@ footer > div {
     }
     
     .banner {
-        height: 10em;   
+        height: 10em;
     }
 
 }
@@ -878,7 +887,7 @@ footer > div {
     }
     
     .banner-carousel {
-        height: 15.5em;  
+        height: 16em;  
     }
     
     .banner {
@@ -951,6 +960,12 @@ footer > div {
     .previews-home {
         max-width: 100%;
         margin: 0 auto;
+    }
+}
+
+@media (min-width: 120em) {
+    .banner-carousel {
+        height: 18.5em;   
     }
 }
 
