@@ -656,7 +656,7 @@ footer > div {
     }
     
     .banner {
-        height: 10em;
+        height: 10.5em;
     }
 
 }
@@ -669,7 +669,7 @@ footer > div {
     }
     
     .banner {
-        height: 11em;   
+        height: 10.5em;   
     }
     
     .main-logo {
@@ -748,7 +748,7 @@ footer > div {
     }
     
     .banner {
-        height: 12em;   
+        height: 11em;   
     }
     
     #portfolio-intro {
@@ -872,7 +872,7 @@ footer > div {
     }
     
     .banner {
-        height: 12.5em;   
+        height: 11.5em;   
     }
 
 
@@ -891,7 +891,7 @@ footer > div {
     }
     
     .banner {
-        height: 13.5em;   
+        height: 11.75em;   
     }
     
     #portfolio-intro {
@@ -966,6 +966,10 @@ footer > div {
 @media (min-width: 120em) {
     .banner-carousel {
         height: 18.5em;   
+    }
+    
+    .banner {
+        height: 13em;   
     }
 }
 
