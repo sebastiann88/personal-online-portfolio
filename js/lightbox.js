@@ -3,6 +3,44 @@ $( document ).ready(function() {
 
 // WEB DESIGN
     
+    //PALISAR
+    
+    $('#open-palisar-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/web-design/palisar-1.jpg',
+            title: 'Palisar 1'
+          },
+            {
+            src: '../../images/web-design/palisar-2.jpg',
+            title: 'Palisar 2'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+        
+    //NOBILE RACKETS
+    
+    $('#open-nobile-rackets-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/web-design/nobile-rackets-1.jpg',
+            title: 'Nobile Rackets Desktop'
+          },
+            {
+            src: '../../images/web-design/nobile-rackets-2.jpg',
+            title: 'Nobile Rackets Mobile'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
     //ASCENT APP
     
     $('#open-ascent-app-popup').magnificPopup({
@@ -80,25 +118,6 @@ $( document ).ready(function() {
             title: 'Good to Talk 7'
           },
 
-        ],
-        gallery: {
-          enabled: true
-        },
-        type: 'image' // this is a default type
-    });
-    
-    //PALISAR
-    
-    $('#open-palisar-popup').magnificPopup({
-    items: [
-          {
-            src: '../../images/web-design/palisar-1.jpg',
-            title: 'Palisar 1'
-          },
-            {
-            src: '../../images/web-design/palisar-2.jpg',
-            title: 'Palisar 2'
-          },
         ],
         gallery: {
           enabled: true

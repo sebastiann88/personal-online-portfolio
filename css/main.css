@@ -20,7 +20,7 @@ html {
   Brand Colours
 ---------------------------
 Light Turquoise: #52bab3;
-Dark Turquoise: rgba(16,122,128,0.8);
+Dark Turquoise: rgba(16,122,128,0.8) / #107a80;
 Light Green: rgba(2,94,99,0.9);
 Dark Green: #003436;
 Light Gray: #d9e4ea;
@@ -500,6 +500,10 @@ figure {
 
 section figure:hover figcaption {
     bottom: 0em;
+}
+
+.nobile-desktop {
+    margin-right: 10%;
 }
 
 /* --------------------------
