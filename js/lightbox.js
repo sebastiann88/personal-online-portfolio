@@ -275,6 +275,21 @@ $( document ).ready(function() {
         type: 'image' // this is a default type
     });
     
+    //DISTINCTIVE AUDIO
+    
+    $('#open-distinctive-audio-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/identity/distinctive-audio-1.gif',
+            title: 'Distinctive Audio Logo 1'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
 // PRINT
     
     //BRIDGEHEAD
