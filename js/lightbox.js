@@ -266,7 +266,7 @@ $( document ).ready(function() {
     items: [
           {
             src: '../../images/identity/personality-genie-1.gif',
-            title: 'Personality Genie Logo 1'
+            title: 'Personality Genie Logo'
           },
         ],
         gallery: {
@@ -281,7 +281,22 @@ $( document ).ready(function() {
     items: [
           {
             src: '../../images/identity/distinctive-audio-1.gif',
-            title: 'Distinctive Audio Logo 1'
+            title: 'Distinctive Audio Logo'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
+    //ALLIANCE FOR THE GREAT LAKES
+    
+    $('#open-great-lakes-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/identity/great-lakes-1.gif',
+            title: 'Alliance for the Great Lakes Logo'
           },
         ],
         gallery: {
