@@ -396,12 +396,28 @@ $( document ).ready(function() {
     $('#open-bridgehead-popup').magnificPopup({
         items: [
           {
-            src: '../../images/print/bridgehead-2.jpg',
+            src: '../../images/print/bridgehead-1.jpg',
             title: 'Bridgehead 1'
           },
-                {
-            src: '../../images/print/bridgehead-3.jpg',
+            {
+            src: '../../images/print/bridgehead-2.jpg',
             title: 'Bridgehead 2'
+          },
+            {
+            src: '../../images/print/bridgehead-3.jpg',
+            title: 'Bridgehead 3'
+          },
+            {
+            src: '../../images/print/bridgehead-4.jpg',
+            title: 'Bridgehead 4'
+          },
+            {
+            src: '../../images/print/bridgehead-5.jpg',
+            title: 'Bridgehead 5'
+          },
+            {
+            src: '../../images/print/bridgehead-6.jpg',
+            title: 'Bridgehead 6'
           },
         ],
         gallery: {
@@ -440,6 +456,35 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+    
+    //ROCKING HORSE
+    
+    $('#open-rocking-horse-popup').magnificPopup({
+        items: [
+           {
+            src: '../../images/print/rocking-horse-1.jpg',
+            title: 'Rocking Horse 1'
+          },
+            {
+            src: '../../images/print/rocking-horse-2.jpg',
+            title: 'Rocking Horse 2'
+          },
+            {
+            src: '../../images/print/rocking-horse-3.jpg',
+            title: 'Rocking Horse 3'
+          },
+            {
+            src: '../../images/print/rocking-horse-4.jpg',
+            title: 'Rocking Horse 4'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+    
+    /*
             
     //GO WITH THE FLOW
             
@@ -481,7 +526,7 @@ $( document ).ready(function() {
           enabled: true
         },
         type: 'image' // this is a default type
-    });
+    }); */
             
     //OBSESSED WITH SPEED
             
