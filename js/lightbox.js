@@ -22,7 +22,30 @@ $( document ).ready(function() {
         type: 'image' // this is a default type
     });
         
-    //PALISAR
+    //DMAND UNLIMITED
+    
+    $('#open-dmand-unlimited-popup').magnificPopup({
+    items: [
+          {
+            src: '../../images/web-design/dmand-unlimited-1.jpg',
+            title: 'dmand Unlimited Mobile'
+          },
+            {
+            src: '../../images/web-design/dmand-unlimited-2.jpg',
+            title: 'dmand Unlimited Tablet'
+          },
+            {
+            src: '../../images/web-design/dmand-unlimited-3.jpg',
+            title: 'dmand Unlimited Desktop'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
+        
+    //ALLIANCE for the GREAT LAKES
     
     $('#open-great-lakes-web-popup').magnificPopup({
     items: [
@@ -80,6 +103,8 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+    
+    /*
     
     //ASCENT APP
     
@@ -199,7 +224,7 @@ $( document ).ready(function() {
           enabled: true
         },
         type: 'image' // this is a default type
-    });
+    }); */
     
     
 // ILLUSTRATION
