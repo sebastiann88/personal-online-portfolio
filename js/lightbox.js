@@ -483,6 +483,37 @@ $( document ).ready(function() {
         },
         type: 'image' // this is a default type
     });
+            
+    //FAST COMPANY
+    
+    $('#open-fast-company-popup').magnificPopup({
+        items: [
+           {
+            src: '../../images/print/fast-company-1.jpg',
+            title: 'Fast Company 1'
+          },
+            {
+            src: '../../images/print/fast-company-2.jpg',
+            title: 'Fast Company 2'
+          },
+            {
+            src: '../../images/print/fast-company-3.jpg',
+            title: 'Fast Company 3'
+          },
+            {
+            src: '../../images/print/fast-company-4.jpg',
+            title: 'Fast Company 4'
+          },
+            {
+            src: '../../images/print/fast-company-5.jpg',
+            title: 'Fast Company 4'
+          },
+        ],
+        gallery: {
+          enabled: true
+        },
+        type: 'image' // this is a default type
+    });
     
     /*
             
@@ -526,7 +557,7 @@ $( document ).ready(function() {
           enabled: true
         },
         type: 'image' // this is a default type
-    }); */
+    }); 
             
     //OBSESSED WITH SPEED
             
@@ -549,7 +580,7 @@ $( document ).ready(function() {
           enabled: true
         },
         type: 'image' // this is a default type
-    });
+    }); */
         
 
 // MOTION DESIGN
